@@ -1,0 +1,23 @@
+{
+    "name": "runalyze/glossary",
+    "description": "provides the glossary for runalyze",
+    "license": "MIT",
+    "keywords": ["runalyze", "symfony3"],
+    "require": {
+      "php": ">=5.5.9"
+    },
+    "authors": [
+        {
+            "name": "RUNALYZE Team",
+            "email": "mail@runalyze.com",
+            "homepage": "https://runalyze.com"
+        }
+    ],
+    "require-dev": {
+      "phpunit/phpunit": "4.8.*",
+      "friendsofphp/php-cs-fixer": "^1.11"
+    },
+    "autoload": {
+        "psr-4": { "Runalyze\\Bundle\\GlossaryBundle\\": "" }
+    }
+}
