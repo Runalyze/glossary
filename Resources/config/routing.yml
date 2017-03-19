@@ -1,3 +1,0 @@
-glossary-index:
-    defaults: { _controller: 'GlossaryBundle:Default:index' }
-    path: /
