@@ -1,0 +1,21 @@
+{% macro referencesHead() %}
+    <h2>{{ 'References'|trans }}</h2>
+
+    <ol class="references">
+{% endmacro %}
+
+{% macro singleReferenceLink(url, text) %}
+        <li><a class="external" href="{{ url }}">{{ text|default(url) }}</a></li>
+{% endmacro %}
+
+{% macro singleReferenceText(text) %}
+        <li>{{ text }}</li>
+{% endmacro %}
+
+{% macro singleReferenceTextWithLink(text, url, urlText) %}
+        <li>{{ text }}, <a class="external" href="{{ url }}">{{ urlText|default(url) }}</a></li>
+{% endmacro %}
+
+{% macro referencesFoot() %}
+    </ol>
+{% endmacro %}

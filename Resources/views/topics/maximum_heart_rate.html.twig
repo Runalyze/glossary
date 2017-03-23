@@ -1,0 +1,21 @@
+{% extends "GlossaryBundle::_base.html.twig" %}
+
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+
+{% block headline %}
+    {% trans %}Maximum heart rate{% endtrans %}
+{% endblock %}
+
+{% block glossaryContent %}
+    <p class="text">
+        {% trans %}The body's heart rate is measured in beats per minute [bpm] and its maximal possible value is defined as maximum heart rate. Athlete's heart rates must always be considered relatively to their maximum, normally stated as [%HRmax].{% endtrans %}
+        {% trans %}Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person.{% endtrans %}
+        {% trans %}As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given.{% endtrans %}
+    </p>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceTextWithLink("Tanaka, H., Monahan, K., Seals, D.: Age-predicted maximal heart rate revisited, Journal of the American College of Cardiology, Volume 37, Issue 1, 2001, pp. 153-156", "http://www.sciencedirect.com/science/article/pii/S0735109700010548", "sciencedirect.com") }}
+    {{ ref.singleReferenceTextWithLink("5 Max Heart Rate Training Myths, Busted", "http://www.bicycling.com/training/health-injuries/5-max-heart-rate-training-myths-busted", "bicycling.com") }}
+    {{ ref.singleReferenceTextWithLink("How to (Really) Calculate Target Heart Rate", "http://www.2toms.com/calculate-target-heart-rate/", "2toms.com") }}
+    {{ ref.referencesFoot() }}
+{% endblock %}
