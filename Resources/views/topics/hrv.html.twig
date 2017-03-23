@@ -1,11 +1,48 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+
 {% block headline %}
     {% trans %}Heart rate variability{% endtrans %} (HRV)
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status.{% endtrans %}
     </p>
+
+    <h2>{% trans %}Metrics for HRV{% endtrans %}</h2>
+    <ul>
+        <li>
+            <strong>RMSSD</strong><br>
+            {% trans %}Root mean square of successive differences{% endtrans %}.
+            {% trans %}This value is said to be a strong indicator for parasympathetic activity and thus large values indicate a better recovery status.{% endtrans %}
+        </li>
+        <li>
+            <strong>lnRMSSD</strong><br>
+            {% trans %}Natural logarithm of RMSSD{% endtrans %}.
+            {% trans %}The logarithm is used to achieve a better scaling.{% endtrans %}
+        </li>
+        <li>
+            <strong>SDNN</strong><br>
+            {% trans %}Standard deviation of R-R intervals{% endtrans %}
+        </li>
+        <li>
+            <strong>5 min-SDANN</strong><br>
+            {% trans %}Standard deviation of the average R-R intervals calculated over 5 minutes{% endtrans %}
+        </li>
+        <li>
+            <strong>pNN50</strong><br>
+            {% trans with {'%s': 50} %}Proportion of successive R-R intervals that differ by more than %s ms{% endtrans %}
+        </li>
+        <li>
+            <strong>pNN20</strong><br>
+            {% trans with {'%s': 20} %}Proportion of successive R-R intervals that differ by more than %s ms{% endtrans %}
+        </li>
+    </ul>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceTextWithLink("Heart Rate Variability Explained", "https://hrvtraining.com/2012/01/16/heart-rate-variability-explained-part-1/", "hrvtraining.com") }}
+    {{ ref.singleReferenceTextWithLink("Heart Rate Variability For Training", "http://www.marcoaltini.com/blog/heart-rate-variability", "marcoaltini.com") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}

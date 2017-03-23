@@ -5,16 +5,15 @@
         {% block panelHeading %}
         <div class="panel-heading">
             <h1>
-                <a href="{{ path('glossary_index') }}">
-                    {% trans %}Glossary{% endtrans %}:
-                </a>
-                {% block headline %}{% endblock %}
+                <a href="{{ path('glossary-index') }}">{% trans %}Glossary{% endtrans %}</a>
             </h1>
         </div>
         {% endblock %}
 
         {% block panelContent %}
         <div class="panel-content">
+            <h2>{% block headline %}{% endblock %}</h2>
+
             {% block glossaryContent %}{% endblock %}
         </div>
         {% endblock %}

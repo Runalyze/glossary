@@ -1,11 +1,19 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+
 {% block headline %}
     VO<sub>2</sub>max
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans with {'%VO2max%': 'VO<sub>2</sub>max'} %}%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with your maximal running performance, but depends on the runners efficiency.{% endtrans %}
+        <!-- More details required -->
     </p>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceText("Daniels, J.: The Conditioning for Distance Running: The Scientific Aspects, John Wiley & Sons, New York, 1978") }}
+    {{ ref.singleReferenceText("Noakes, T.: Lore of Running (4th ed.), Human Kinetics, Champaign (IL), 2003") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}

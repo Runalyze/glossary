@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/", name="glossary_index")
+     * @Route("/", name="glossary-index")
      */
     public function indexAction()
     {
@@ -19,7 +19,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/atl", name="glossary_atl")
+     * @Route("/atl", name="glossary-atl")
      */
     public function atlAction()
     {
@@ -27,7 +27,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/ctl", name="glossary_ctl")
+     * @Route("/ctl", name="glossary-ctl")
      */
     public function ctlAction()
     {
@@ -35,7 +35,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/easy-trimp", name="glossary_easy_trimp")
+     * @Route("/easy-trimp", name="glossary-easy-trimp")
      */
     public function easyTrimpAction()
     {
@@ -43,7 +43,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/heat-index", name="glossary_heat_index")
+     * @Route("/heat-index", name="glossary-heat-index")
      */
     public function heatIndexAction()
     {
@@ -51,7 +51,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/hrv", name="glossary_hrv")
+     * @Route("/hrv", name="glossary-hrv")
      */
     public function hrvAction()
     {
@@ -59,7 +59,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/marathon-shape", name="glossary_marathon_shape")
+     * @Route("/marathon-shape", name="glossary-marathon-shape")
      */
     public function marathonShapeAction()
     {
@@ -67,15 +67,15 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/maximal-heart-rate", name="glossary_maximal_heart_rate")
+     * @Route("/maximum-heart-rate", name="glossary-maximum-heart-rate")
      */
-    public function maximalHeartRateAction()
+    public function maximumHeartRateAction()
     {
-        return $this->render('GlossaryBundle:topics:maximal_heart_rate.html.twig');
+        return $this->render('GlossaryBundle:topics:maximum_heart_rate.html.twig');
     }
 
     /**
-     * @Route("/monotony", name="glossary_monotony")
+     * @Route("/monotony", name="glossary-monotony")
      */
     public function monotonyAction()
     {
@@ -83,7 +83,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/performance-condition", name="glossary_performance_condition")
+     * @Route("/performance-condition", name="glossary-performance-condition")
      */
     public function performanceConditionAction()
     {
@@ -91,7 +91,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/resting-heart-rate", name="glossary_resting_heart_rate")
+     * @Route("/resting-heart-rate", name="glossary-resting-heart-rate")
      */
     public function restingHeartRateAction()
     {
@@ -99,7 +99,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/rpe", name="glossary_rpe")
+     * @Route("/rpe", name="glossary-rpe")
      */
     public function rpeAction()
     {
@@ -107,7 +107,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/swolf", name="glossary_swolf")
+     * @Route("/swolf", name="glossary-swolf")
      */
     public function swolfAction()
     {
@@ -115,7 +115,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/training_effect", name="glossary_training_effect")
+     * @Route("/training-effect", name="glossary-training-effect")
      */
     public function trainingEffectAction()
     {
@@ -123,7 +123,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/training_strain", name="glossary_training_strain")
+     * @Route("/training-strain", name="glossary-training-strain")
      */
     public function trainingStrainAction()
     {
@@ -131,7 +131,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/trimp", name="glossary_trimp")
+     * @Route("/trimp", name="glossary-trimp")
      */
     public function trimpAction()
     {
@@ -139,7 +139,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/vo2max", name="glossary_vo2max")
+     * @Route("/vo2max", name="glossary-vo2max")
      */
     public function vo2maxAction()
     {
@@ -147,7 +147,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/windchill", name="glossary_windchill")
+     * @Route("/windchill", name="glossary-windchill")
      */
     public function windchillAction()
     {
