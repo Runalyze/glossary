@@ -6,6 +6,44 @@
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}The training effect is a measure by Firstbeat and Garmin to evaluate the training's ffort concerning the impact on the physiology, in particular future aerobic performance. Garmin devices analyze heart rate data during activity to estimate EPOC (excess post-exercise oxygen consumption) and determine the related training effect. Training effect values are useful to control one's weekly training to prevent overtraining.{% endtrans %}
     </p>
+
+    <p class="text">
+        {% trans %}Runalyze reads training effect values only when importing *.fit-files (provided that the file contains a training effect value).{% endtrans %}
+    </p>
+
+    <h2>{% trans %}Training Effect Levels{% endtrans %}</h2>
+    <ul>
+        <li>
+            <strong>0.0 - 0.9</strong> &ndash; {% trans %}No training effect{% endtrans %}
+        </li>
+        <li>
+            <strong>1.0 - 1.9</strong> &ndash; {% trans %}Minor training effect{% endtrans %}<br>
+            {% trans %}Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance.{% endtrans %}
+        </li>
+        <li>
+            <strong>2.0 - 2.9</strong> &ndash; {% trans %}Maintaining training effect{% endtrans %}<br>
+            {% trans %}Maintains cardiorespiratory fitness and builds foundation for more demanding workours in future.{% endtrans %}
+        </li>
+        <li>
+            <strong>3.0 - 3.9</strong> &ndash; {% trans %}Improving training effect{% endtrans %}<br>
+            {% trans %}Improves cardiorespiratory fitness.{% endtrans %}
+            ({% trans %}Suggestion{% endtrans %}: 2-4x {% trans %}per week{% endtrans %})
+        </li>
+        <li>
+            <strong>4.0 - 4.9</strong> &ndash; {% trans %}Highly improving training effect{% endtrans %}<br>
+            {% trans %}Highly improves cardiorespiratory fitness, but requires easier workouts to balance the training.{% endtrans %}
+            ({% trans %}Suggestion{% endtrans %}: 1-2x {% trans %}per week{% endtrans %})
+        </li>
+        <li>
+            <strong>5.0 -</strong> &ndash; {% trans %}Overtraining{% endtrans %}<br>
+            {% trans %}Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.{% endtrans %}
+        </li>
+    </ul>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceTextWithLink("Firstbeat Feature: Training Effect (Aerobic)", "https://www.firstbeat.com/en/consumer-feature/training-effect-aerobic/", "firstbeat.com") }}
+    {{ ref.singleReferenceTextWithLink("Firstbeat White Paper - Training Effect", "https://assets.firstbeat.com/firstbeat/uploads/2015/10/white_paper_training_effect.pdf", "firstbeat.com [pdf]") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}

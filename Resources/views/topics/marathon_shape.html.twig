@@ -6,6 +6,12 @@
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}The marathon shape is an invention of Runalyze to optimize prognoses for long distances, that are based on the effective VO2max. These prognoses normally can't consider whether the athlete has the optimal fitness or endurance for a marathon. The marathon shape is the solution for this problem, as the prognoses are continually adjusted for missing fitness.{% endtrans %}
+    </p>
+    <p class="text">
+        {% trans %}To calculate the marathon shape, the kilometers made a week aswell as every single run according to length are looked at. Other physical activities (e.g. cycling) are not going to be considered. The target is set to a calculated value according to the athlete's current best possible marathon time, based on the VO2max. The kilometers and the distance of the weekly long run are derived from typical marathon training plans. {% endtrans %}
+    </p>
+    <p class="text">
+        {% trans %}By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape. These parameters can be changed individually by every athlete.{% endtrans %}
     </p>
 {% endblock %}

@@ -8,4 +8,8 @@
     <p class="text">
         {% trans %}...{% endtrans %}
     </p>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceLink("http://fellrnr.com/wiki/TRIMP", "Fellrnr.com - TRIMP") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}

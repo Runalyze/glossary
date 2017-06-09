@@ -6,6 +6,14 @@
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}The training strain calculates the risk of overtraining by the addition of training monotony and the result of the TRIMP value. The risk of overtraining has an individual limit for every single athlete.{% endtrans %}
     </p>
+
+    <p class="text">
+        <em>{% trans %}Runalyze tries to estimate the athlete's limit by current ATL and gives a coloured (green/orange/red) feedback.{% endtrans %}</em>
+    </p>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceLink("http://fellrnr.com/wiki/Training_Monotony#Training_Strain_Calculations", "Fellrnr.com - Training Strain") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}

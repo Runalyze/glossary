@@ -6,6 +6,31 @@
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}Rated Perceived Exertion (RPE) is a quantitive measure for the physical exertion of an activity. this rating is frequently used in studies and is measured by the Borg rating or RPE scale. The range of 6-20 follows the heart rate of a healthy young adult (by multiplying with 10).{% endtrans %}
     </p>
+
+    <h2>{% trans %}RPE scale{% endtrans %}</h2>
+    <ul>
+        <li><strong>6</strong> &ndash; {% trans %}No exertion at all{% endtrans %}
+        <li><strong>7</strong> &ndash; {% trans %}Extremely light{% endtrans %}
+        <li><strong>8</strong>
+        <li><strong>9</strong> &ndash; {% trans %}Very light{% endtrans %}
+        <li><strong>10</strong>
+        <li><strong>11</strong> &ndash; {% trans %}Light{% endtrans %}
+        <li><strong>12</strong>
+        <li><strong>13</strong> &ndash; {% trans %}Somewhat hard{% endtrans %}
+        <li><strong>14</strong>
+        <li><strong>15</strong> &ndash; {% trans %}Hard{% endtrans %}
+        <li><strong>16</strong>
+        <li><strong>17</strong> &ndash; {% trans %}Very hard{% endtrans %}
+        <li><strong>18</strong>
+        <li><strong>19</strong> &ndash; {% trans %}Extremely hard{% endtrans %}
+        <li><strong>20</strong> &ndash; {% trans %}Maximal exertion{% endtrans %}
+    </ul>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceText("Borg, G. (1982) Psychophysical bases of perceived exertion. Medicine and Science in Sports and Exercise, 14 (5), p. 377-81") }}
+    {{ ref.singleReferenceText("Borg, G. et al. (1983) A category-ratio perceived exertion scale: relationship to blood and muscle lactates and heart rate. Med. Sci. Sports Exerc., 15 (6), p. 523-528") }}
+    {{ ref.singleReferenceText("Borg, G. (1970) Perceived Exertion as an indicator of somatic stress. Scandinavian journal of Rehabilitation Medicine, 2 (2), p. 92-98") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}
