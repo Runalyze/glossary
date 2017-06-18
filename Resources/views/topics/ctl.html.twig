@@ -1,5 +1,8 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+{% import 'GlossaryBundle::_macro/see_also.html.twig' as see %}
+
 {% block headline %}
     {% trans %}Chronical Training Load{% endtrans %} (CTL)
 {% endblock %}
@@ -8,4 +11,13 @@
     <p class="text">
         {% trans %}...{% endtrans %}
     </p>
+
+    {{ see.seeAlsoHead() }}
+    {{ see.seeAlsoLink(path('glossary-trimp'), 'TRIMP') }}
+    {{ see.seeAlsoLink(path('glossary-atl'), 'ATL') }}
+    {{ see.seeAlsoFoot() }}
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceLink("http://fellrnr.com/wiki/Modeling_Human_Performance", "Fellrnr.com - Modeling Human Performance") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}

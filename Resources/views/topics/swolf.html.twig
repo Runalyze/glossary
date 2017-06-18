@@ -1,11 +1,24 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+
 {% block headline %}
     SWOLF
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}SWOLF is a metric of swimming efficiency and is calculated as sum of time (in seconds) and stroke count for a given distance (traditionally the pool length, i.e. 50m). Stroke count is used as an indicator of effort, but it's not always a good one.{% endtrans %}
+        {% trans %}The SWOLF score is useful when trying different combinations of stroke rate and stroke length to find the most efficient one, but it's not meaningful for comparing different swimmers.{% endtrans %}
     </p>
+
+    <p class="text">
+        {% trans %}Similarly, SWOLF cycles is calculated as sum of time (in seconds) and stroke cycles (i.e. number of hand entries only on one side). Some people prefer SWOLF cycles as metric for finding one's most efficient swimming style.{% endtrans %}
+    </p>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceTextWithLink("Garmin: Swim Terminology", "https://www8.garmin.com/manuals/webhelp/fenix3/EN-US/GUID-9481691E-B9E0-4793-BDF7-4F78D8703E2B.html", "garmin.com") }}
+    {{ ref.singleReferenceTextWithLink("SWOLF and swimming efficiency", "http://blog.marathonswimmers.org/2012/04/swolf-swim-efficiency/", "blog.marathonswimmers.org") }}
+    {{ ref.singleReferenceTextWithLink("SWOLF vs SWOLF cycles", "http://blog.marathonswimmers.org/2013/03/better-swolf/", "blog.marathonswimmers.org") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}

@@ -1,11 +1,22 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/see_also.html.twig' as see %}
+
 {% block headline %}
     {% trans %}Easy TRIMP{% endtrans %}
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress.{% endtrans %}
     </p>
+
+    {{ see.seeAlsoHead() }}
+    {{ see.seeAlsoLink(path('glossary-trimp'), 'TRIMP') }}
+    {{ see.seeAlsoLink(path('glossary-atl'), 'ATL') }}
+    {{ see.seeAlsoLink(path('glossary-atl'), 'CTL') }}
+    {{ see.seeAlsoLink(path('glossary-tsb'), 'TSB') }}
+    {{ see.seeAlsoLink(path('glossary-monotony'), 'Monotony'|trans) }}
+    {{ see.seeAlsoLink(path('glossary-training-strain'), 'Training strain'|trans) }}
+    {{ see.seeAlsoFoot() }}
 {% endblock %}

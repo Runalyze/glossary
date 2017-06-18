@@ -4,17 +4,20 @@
 {% import 'GlossaryBundle::_macro/see_also.html.twig' as see %}
 
 {% block headline %}
-    {% trans %}Actual Training Load{% endtrans %} (ATL)
+    {% trans %}Training Stress Balance{% endtrans %} (TSB)
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}Training stress balance is the difference between CTL and ATL (in absolute values) and can help as indicator for hard training (negative values) and rest (positive values).{% endtrans %}
+        {% trans %}If an important race is ahead, TSB should be clearly positive. As levels of CTL and ATL differ from athlete to athlete, no concrete suggestions can be made.{% endtrans %}
     </p>
 
     {{ see.seeAlsoHead() }}
     {{ see.seeAlsoLink(path('glossary-trimp'), 'TRIMP') }}
+    {{ see.seeAlsoLink(path('glossary-ctl'), 'ATL') }}
     {{ see.seeAlsoLink(path('glossary-ctl'), 'CTL') }}
+    {{ see.seeAlsoLink(path('glossary-easy-trimp'), 'Easy TRIMP'|trans) }}
     {{ see.seeAlsoFoot() }}
 
     {{ ref.referencesHead() }}

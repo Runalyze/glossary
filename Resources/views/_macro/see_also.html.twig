@@ -1,0 +1,13 @@
+{% macro seeAlsoHead() %}
+    <h2>{{ 'See also'|trans }}</h2>
+
+    <ul class="see-also">
+{% endmacro %}
+
+{% macro seeAlsoLink(url, text) %}
+        <li><a href="{{ url }}">{{ text|default(url) }}</a></li>
+{% endmacro %}
+
+{% macro seeAlsoFoot() %}
+    </ul>
+{% endmacro %}

@@ -8,8 +8,12 @@
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans with {'%VO2max%': 'VO<sub>2</sub>max'} %}%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with your maximal running performance, but depends on the runners efficiency.{% endtrans %}
-        <!-- More details required -->
+        {% trans with {'%VO2max%': 'VO<sub>2</sub>max'} %}%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.{% endtrans %}
+    </p>
+
+    <p class="text">
+        {% trans with {'%VO2max%': 'VO<sub>2</sub>max'} %}Runalyze estimates the Effective %VO2max% for every run with heart rate data based on the relation of heart rate and pace. Optionally, elevation can be taken into account as well. The average of these values will be used as the athlete's current shape.{% endtrans %}
+        {% trans with {'%VO2max%': 'VO<sub>2</sub>max'} %}As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor.{% endtrans %}
     </p>
 
     {{ ref.referencesHead() }}

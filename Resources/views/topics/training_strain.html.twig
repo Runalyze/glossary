@@ -1,17 +1,27 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+{% import 'GlossaryBundle::_macro/see_also.html.twig' as see %}
+
 {% block headline %}
     {% trans %}Training strain{% endtrans %}
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}The training strain calculates the risk of overtraining by the addition of training monotony and the result of the TRIMP value. The risk of overtraining has an individual limit for every single athlete.{% endtrans %}
+        {% trans %}The training strain calculates the risk of overtraining by combining training monotony and the sum of all TRIMP values for a given period. The risk of overtraining has an individual limit for every single athlete.{% endtrans %}
     </p>
 
     <p class="text">
         <em>{% trans %}Runalyze tries to estimate the athlete's limit by current ATL and gives a coloured (green/orange/red) feedback.{% endtrans %}</em>
     </p>
+
+    {{ see.seeAlsoHead() }}
+    {{ see.seeAlsoLink(path('glossary-trimp'), 'TRIMP') }}
+    {{ see.seeAlsoLink(path('glossary-atl'), 'ATL') }}
+    {{ see.seeAlsoLink(path('glossary-atl'), 'CTL') }}
+    {{ see.seeAlsoLink(path('glossary-monotony'), 'Monotony'|trans) }}
+    {{ see.seeAlsoFoot() }}
 
     {{ ref.referencesHead() }}
     {{ ref.singleReferenceLink("http://fellrnr.com/wiki/Training_Monotony#Training_Strain_Calculations", "Fellrnr.com - Training Strain") }}

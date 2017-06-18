@@ -1,11 +1,47 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+
 {% block headline %}
     {% trans %}Heat index{% endtrans %}
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}The heat index as an index that combines air temperature and relative humidity to determine the human-perceived equivalent temperature. The resulting apparent temperature is crucial to assess possible effects of the weather for the human body. High relative humidity reduces the evaporation rate of sweat, lowering the body's self-cooling.{% endtrans %}
     </p>
+
+    <p class="text">
+        {% trans with {'%temp%': '14 &deg;F (8 &deg;C)'} %}The heat index is calculated based on temperatures in the shade. Exposure to full sunshine can increase heat index values by up to %temp%.{% endtrans %}
+    </p>
+
+    <h2>{% trans %}Heat index levels{% endtrans %}</h2>
+    <ul>
+        <li>
+            <strong>&lt; 80 &deg;F (27 &deg;C)</strong> &ndash; {% trans %}No effect{% endtrans %}<br>
+            {% trans %}Temperature and humidity should not have any effect.{% endtrans %}
+        </li>
+        <li>
+            <strong>&lt; 91 &deg;F (33 &deg;C)</strong> &ndash; {% trans %}Caution{% endtrans %}<br>
+            {% trans %}Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.{% endtrans %}
+        </li>
+        <li>
+            <strong>&lt; 105 &deg;F (41 &deg;C)</strong> &ndash; {% trans %}Extreme caution{% endtrans %}<br>
+            {% trans %}Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke.{% endtrans %}
+        </li>
+        <li>
+            <strong>&lt; 130 &deg;F (54 &deg;C)</strong> &ndash; {% trans %}Danger{% endtrans %}<br>
+            {% trans %}Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity.{% endtrans %}
+        </li>
+        <li>
+            <strong>&ge; 130 &deg;F (54 &deg;C)</strong> &ndash; {% trans %}Extreme danger{% endtrans %}<br>
+            {% trans %}Heat stroke is imminent.{% endtrans %}
+        </li>
+    </ul>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceTextWithLink("Steadman, R. G.: The Assessment of Sultriness. Part I: A Temperature-Humidity Index Based on Human Physiology and Clothing Science, Journal of Applied Meteorology, 18 (7): 861–873, 1979", "https://doi.org/10.1175%2F1520-0450%281979%29018%3C0861%3ATAOSPI%3E2.0.CO%3B2", "doi:10.1175/1520-0450(1979)018<0861:TAOSPI>2.0.CO;2") }}
+    {{ ref.singleReferenceTextWithLink("Rothfusz, L. P.: The Heat Index 'Equation' (or, More Than You Ever Wanted to Know About Heat Index), Scientific Services Division (NWS Southern Region Headquarters), 1990", "https://wonder.cdc.gov/wonder/help/Climate/ta_htindx.PDF", "wonder.cdc.gov [pdf]") }}
+    {{ ref.singleReferenceTextWithLink("National Weather Service: Heat Index", "http://www.nws.noaa.gov/os/heat/heat_index.shtml", "www.nws.noaa.gov") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}

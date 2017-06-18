@@ -1,15 +1,32 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+{% import 'GlossaryBundle::_macro/see_also.html.twig' as see %}
+
 {% block headline %}
     {% trans %}Training Impulse{% endtrans %} (TRIMP)
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans with {
+            '%restingHeartRate%': '<a href="' ~ path('glossary-resting-heart-rate') ~ '">' ~ ('Resting heart rate'|trans) ~ '</a>',
+            '%maximumHeartRate%': '<a href="' ~ path('glossary-maximum-heart-rate') ~ '">' ~ ('Maximum heart rate'|trans) ~ '</a>'
+        } %}Training Impulse, developed by Banister in 1991, is a method to quantify training load based on heart rate and duration of an exercise. The method uses heart rate reserve, which considers %restingHeartRate% as well as %maximumHeartRate%, and a gender-specific weighting factor.{% endtrans %}
     </p>
 
+    <p class="text">
+        {% trans %}Runalyze will always use the activity's complete heart rate profile, if available, to correctly rate interval workouts.{% endtrans %}
+    </p>
+
+    {{ see.seeAlsoHead() }}
+    {{ see.seeAlsoLink(path('glossary-atl'), 'ATL') }}
+    {{ see.seeAlsoLink(path('glossary-ctl'), 'CTL') }}
+    {{ see.seeAlsoFoot() }}
+
     {{ ref.referencesHead() }}
+    {{ ref.singleReferenceText("Banister, E. W.: Modeling Elite Athletic Performance. In: McDougall, J. D., Wenger, H. A. & Green, H. J. (eds.) Physiological Testing of Elite Athletes, Champaign, Illinois: Human Kinetics, 1991") }}
+    {{ ref.singleReferenceText("Busso, T.: Variable dose-response relationship between exercise training and performance. Med Sci Sports Exerc, 35, 1188-95, 2003") }}
     {{ ref.singleReferenceLink("http://fellrnr.com/wiki/TRIMP", "Fellrnr.com - TRIMP") }}
     {{ ref.referencesFoot() }}
 {% endblock %}

@@ -1,11 +1,22 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+
 {% block headline %}
     {% trans %}Windchill{% endtrans %}
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}The Wind Chill effect describes the rate of heat loss from the human body resulting from the combined effect of low temperature and wind. As winds increase, heat is carried away from the body at a faster rate, driving down both the skin temperature and eventually the internal body temperature.{% endtrans %}
     </p>
+
+    <p class="text">
+        {% trans %}In Runalyze, windchill is a metric for the apparent temperature that takes the Wind Chill effect into account.{% endtrans %}
+    </p>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceLink("https://www.weather.gov/gjt/windchill", "National Weather Service: Wind Chill") }}
+    {{ ref.singleReferenceLink("https://web.archive.org/web/20101011123948/http://www.bbc.co.uk/weather/features/understanding/wind_chill.shtml", "BBC: Understanding Weather - Wind Chill (archived)") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}
