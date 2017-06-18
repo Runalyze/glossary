@@ -35,6 +35,14 @@ class DefaultController extends Controller
     }
 
     /**
+     * @Route("/tsb", name="glossary-tsb")
+     */
+    public function tsbAction()
+    {
+        return $this->render('GlossaryBundle:topics:tsb.html.twig');
+    }
+
+    /**
      * @Route("/easy-trimp", name="glossary-easy-trimp")
      */
     public function easyTrimpAction()
