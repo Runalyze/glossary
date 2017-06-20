@@ -9,7 +9,13 @@
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans with {
+            '%trimp%': '<a href="' ~ path('glossary-trimp') ~ '">TRIMP</a>'
+        } %}Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.{% endtrans %}
+    </p>
+
+    <p class="text">
+        {% trans %}Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended.{% endtrans %}
     </p>
 
     {{ see.seeAlsoHead() }}

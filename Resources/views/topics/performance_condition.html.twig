@@ -1,11 +1,23 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+
 {% block headline %}
     {% trans %}Performance condition{% endtrans %}
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}Performance condition is a metric provided by Garmin that analyzes pace, heart rate and heart rate variability within the first 20 minutes of an activity to make a real-time assessment of your ability to perform compared to your current fitness level.{% endtrans %}
+        {% trans %}Performance condition values range from +20 to -20, whereby positive values mean that you are rested and in shape for a good and intense workout.{% endtrans %}
     </p>
+
+    <p class="text">
+        {% trans %}Runalyze will import performance condition from fit files if available.{% endtrans %}
+    </p>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceTextWithLink("Garmin - Physiological Measurements: Performance Condition", "https://www8.garmin.com/manuals/webhelp/fenix3/EN-US/GUID-901ACCFC-FB0D-414E-B80C-54970AF4E357.html", "garmin.com") }}
+    
+    {{ ref.referencesFoot() }}
 {% endblock %}

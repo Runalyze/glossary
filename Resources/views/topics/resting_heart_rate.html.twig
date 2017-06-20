@@ -8,6 +8,15 @@
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans %}The resting heart rate is defined as the heart rate when a person is awake and at complete rest. Well-conditioned endurance athletes typically have lower resting heart rates (e.g. 30 - 50 bpm) than unathletic people (e.g. 50 - 90 bpm).{% endtrans %}
     </p>
+
+    <p class="text">
+        {% trans %}Measuring resting heart rate each day as part of a morning ritual is recommended for athletes. Increases in resting heart rate can indicate stress and overtraining.{% endtrans %}
+    </p>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceTextWithLink("Gaudette, J.: Think You're Overtraining? Check Your Pulse", "http://running.competitor.com/2014/06/training/think-youre-overtraining-check-your-pulse_63593", "running.competitor.com") }}
+    {{ ref.singleReferenceTextWithLink("The Importance of Measuring Resting Heart Rate", "https://blog.biostrap.com/posts/the-importance-of-measuring-resting-heart-rate", "blog.biostrap.com") }}
+    {{ ref.referencesFoot() }}
 {% endblock %}

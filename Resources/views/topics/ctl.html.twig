@@ -9,7 +9,15 @@
 
 {% block glossaryContent %}
     <p class="text">
-        {% trans %}...{% endtrans %}
+        {% trans with {
+            '%trimp%': '<a href="' ~ path('glossary-trimp') ~ '">TRIMP</a>'
+        } %}Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default.{% endtrans %}
+    </p>
+
+    <p class="text">
+        {% trans with {
+            '%atl%': '<a href="' ~ path('glossary-atl') ~ '">ATL</a>'
+        } %}Similar to %atl%, Runalyze uses the alltime maximum CTL to express current CTL as percentage.{% endtrans %}
     </p>
 
     {{ see.seeAlsoHead() }}
