@@ -5,7 +5,7 @@
 {% endmacro %}
 
 {% macro singleReferenceLink(url, text) %}
-        <li><a class="external" href="{{ url }}">{{ text|default(url) }}</a></li>
+        <li><a class="external" target="_blank" href="{{ url }}">{{ text|default(url) }}</a></li>
 {% endmacro %}
 
 {% macro singleReferenceText(text) %}
@@ -13,7 +13,7 @@
 {% endmacro %}
 
 {% macro singleReferenceTextWithLink(text, url, urlText) %}
-        <li>{{ text }}, <a class="external" href="{{ url }}">{{ urlText|default(url) }}</a></li>
+        <li>{{ text }}, <a class="external" target="_blank" href="{{ url }}">{{ urlText|default(url) }}</a></li>
 {% endmacro %}
 
 {% macro referencesFoot() %}
