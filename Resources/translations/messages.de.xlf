@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2017-07-08T15:59:23Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
@@ -71,9 +71,9 @@
         <target>Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.</target>
         <jms:reference-file line="41">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0df9824336c43480212d28e69a6e040729284513" resname="Easy TRIMP">
+      <trans-unit id="0df9824336c43480212d28e69a6e040729284513" resname="Easy TRIMP" approved="yes">
         <source>Easy TRIMP</source>
-        <target>Easy TRIMP</target>
+        <target state="translated">Entspannter TRIMP</target>
         <jms:reference-file line="24">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
         <jms:reference-file line="20">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
@@ -88,24 +88,24 @@
         <target>Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person.</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c32ed5eccf1923cb5513356a0692775c0f820fb4" resname="Extreme caution">
+      <trans-unit id="c32ed5eccf1923cb5513356a0692775c0f820fb4" resname="Extreme caution" approved="yes">
         <source>Extreme caution</source>
-        <target>Extreme caution</target>
+        <target state="translated">Erhöhte Vorsicht</target>
         <jms:reference-file line="29">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c1e5fa39df05e344cbc0712b2c7a19631263ab2c" resname="Extreme danger">
+      <trans-unit id="c1e5fa39df05e344cbc0712b2c7a19631263ab2c" resname="Extreme danger" approved="yes">
         <source>Extreme danger</source>
-        <target>Extreme danger</target>
+        <target state="translated">Erhöhte Gefahr</target>
         <jms:reference-file line="37">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="33bd5087468ac086fac47e414f787a063190a0fa" resname="Extremely hard">
+      <trans-unit id="33bd5087468ac086fac47e414f787a063190a0fa" resname="Extremely hard" approved="yes">
         <source>Extremely hard</source>
-        <target>Extremely hard</target>
+        <target state="translated">extrem anstrengend</target>
         <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9054d111bd557977e52db876e71481ba1484b351" resname="Extremely light">
+      <trans-unit id="9054d111bd557977e52db876e71481ba1484b351" resname="Extremely light" approved="yes">
         <source>Extremely light</source>
-        <target>Extremely light</target>
+        <target state="translated">Extrem leicht</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2701f8c51e1f9bb69344f1e6087b2764bea7f3f2" resname="Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.">
@@ -113,19 +113,19 @@
         <target>Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.</target>
         <jms:reference-file line="26">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary">
+      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary" approved="yes">
         <source>Glossary</source>
-        <target>Glossary</target>
+        <target state="translated">Glossar</target>
         <jms:reference-file line="8">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/_base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="20a89915f18c15e815e6422bf02ca6944f6dd8d8" resname="Hard">
+      <trans-unit id="20a89915f18c15e815e6422bf02ca6944f6dd8d8" resname="Hard" approved="yes">
         <source>Hard</source>
-        <target>Hard</target>
+        <target state="translated">Hart</target>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5b290995d5b779c47e12e4fa3485f0aba6022126" resname="Heart rate variability">
+      <trans-unit id="5b290995d5b779c47e12e4fa3485f0aba6022126" resname="Heart rate variability" approved="yes">
         <source>Heart rate variability</source>
-        <target>Heart rate variability</target>
+        <target state="translated">Herzfrequenzvariabilität</target>
         <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
@@ -144,20 +144,20 @@
         <target>Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke.</target>
         <jms:reference-file line="30">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7cae891b77fd34ac239e3f82d36ed829ffe71619" resname="Heat index">
+      <trans-unit id="7cae891b77fd34ac239e3f82d36ed829ffe71619" resname="Heat index" approved="yes">
         <source>Heat index</source>
-        <target>Heat index</target>
+        <target state="translated">Hitzeindex</target>
         <jms:reference-file line="32">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="23c1823dabdde065a6df1727baa92f1b170a78c4" resname="Heat index levels">
+      <trans-unit id="23c1823dabdde065a6df1727baa92f1b170a78c4" resname="Heat index levels" approved="yes">
         <source>Heat index levels</source>
-        <target>Heat index levels</target>
+        <target state="translated">Hitzeindexlevel</target>
         <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7793e3b614c5b52a00ef3d26576ad3c41ab9081e" resname="Heat stroke is imminent.">
+      <trans-unit id="7793e3b614c5b52a00ef3d26576ad3c41ab9081e" resname="Heat stroke is imminent." approved="yes">
         <source>Heat stroke is imminent.</source>
-        <target>Heat stroke is imminent.</target>
+        <target state="translated">Hitzschlag und Sonnenstich sind sehr wahrscheinlich.</target>
         <jms:reference-file line="38">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7db6780c88a68051332ed2eb5f1b33c039e29e4d" resname="Highly improves cardiorespiratory fitness, but requires easier workouts to balance the training.">
@@ -190,9 +190,9 @@
         <target>In Runalyze, windchill is a metric for the apparent temperature that takes the Wind Chill effect into account.</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/windchill.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a36ef8aba22905e2d2efbf1ac1d6230d5761859d" resname="Light">
+      <trans-unit id="a36ef8aba22905e2d2efbf1ac1d6230d5761859d" resname="Light" approved="yes">
         <source>Light</source>
-        <target>Light</target>
+        <target state="translated">leicht</target>
         <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b987ea2468ff96549181c5f0f90c2647880d2962" resname="Maintaining training effect">
@@ -238,9 +238,9 @@
         <target>Minor training effect</target>
         <jms:reference-file line="22">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e5cee8b95402c56c6e8bf68b1e8392f321109906" resname="Monotony">
+      <trans-unit id="e5cee8b95402c56c6e8bf68b1e8392f321109906" resname="Monotony" approved="yes">
         <source>Monotony</source>
-        <target>Monotony</target>
+        <target state="translated">Monotonie</target>
         <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
@@ -251,19 +251,19 @@
         <target>Natural logarithm of RMSSD</target>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7ed12cb7b7094edb08b930b8cc8f9f07b07959d9" resname="No effect">
+      <trans-unit id="7ed12cb7b7094edb08b930b8cc8f9f07b07959d9" resname="No effect" approved="yes">
         <source>No effect</source>
-        <target>No effect</target>
+        <target state="translated">Keine Auswirkungen</target>
         <jms:reference-file line="21">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6fccbcc780d1a1ae131019607d0d4071d2eb784f" resname="No exertion at all">
+      <trans-unit id="6fccbcc780d1a1ae131019607d0d4071d2eb784f" resname="No exertion at all" approved="yes">
         <source>No exertion at all</source>
-        <target>No exertion at all</target>
+        <target state="translated">Überhaupt keine Anstrengung</target>
         <jms:reference-file line="14">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="91a8efd280c0c6d748c999d62d8593c161cd35e9" resname="No training effect">
+      <trans-unit id="91a8efd280c0c6d748c999d62d8593c161cd35e9" resname="No training effect" approved="yes">
         <source>No training effect</source>
-        <target>No training effect</target>
+        <target state="translated">Kein Trainingeffekt</target>
         <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b5cd39eda8c2539f5722a73d7ca9f43c73f59395" resname="Notice: This calculation is based on the sum of the *all day* TRIMP value. It is based on the overall strain made a day, no matter which kind of activity has been done.">
@@ -271,14 +271,14 @@
         <target>Notice: This calculation is based on the sum of the *all day* TRIMP value. It is based on the overall strain made a day, no matter which kind of activity has been done.</target>
         <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="56ccfca015890c7861ef03ff31fad3a8f1c7a4d0" resname="Overtraining">
+      <trans-unit id="56ccfca015890c7861ef03ff31fad3a8f1c7a4d0" resname="Overtraining" approved="yes">
         <source>Overtraining</source>
-        <target>Overtraining</target>
+        <target state="translated">Übertraining</target>
         <jms:reference-file line="40">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0efc2e6be4c23b9a513d7ce0dcff8ed80e8912e7" resname="Overview">
+      <trans-unit id="0efc2e6be4c23b9a513d7ce0dcff8ed80e8912e7" resname="Overview" approved="yes">
         <source>Overview</source>
-        <target>Overview</target>
+        <target state="translated">Übersicht</target>
         <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="316047c6d1d3c49069bbbd100fa00f784ba5e6fc" resname="Performance condition">
@@ -308,9 +308,9 @@
         <target>RPE scale</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ec11340b6224b308b305bae67b27ee9ae9f058f7" resname="Rate of Perceived Exertion">
+      <trans-unit id="ec11340b6224b308b305bae67b27ee9ae9f058f7" resname="Rate of Perceived Exertion" approved="yes">
         <source>Rate of Perceived Exertion</source>
-        <target>Rate of Perceived Exertion</target>
+        <target state="translated">Gefühlte Belastung</target>
         <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5bc8a13031190e948b9951fbf35c07c088394a38" resname="Rated Perceived Exertion (RPE) is a quantitive measure for the physical exertion of an activity. this rating is frequently used in studies and is measured by the Borg rating or RPE scale. The range of 6-20 follows the heart rate of a healthy young adult (by multiplying with 10).">
@@ -318,14 +318,14 @@
         <target>Rated Perceived Exertion (RPE) is a quantitive measure for the physical exertion of an activity. this rating is frequently used in studies and is measured by the Borg rating or RPE scale. The range of 6-20 follows the heart rate of a healthy young adult (by multiplying with 10).</target>
         <jms:reference-file line="9">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5d20d0fee3b91643dd8d272ac33d01ca95179d82" resname="References">
+      <trans-unit id="5d20d0fee3b91643dd8d272ac33d01ca95179d82" resname="References" approved="yes">
         <source>References</source>
-        <target>References</target>
+        <target state="translated">Referenzen</target>
         <jms:reference-file line="2">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/_macro/references.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="348928d6f5bed1d5e6ca2b20cf5d4e27d369ec96" resname="Resting heart rate">
+      <trans-unit id="348928d6f5bed1d5e6ca2b20cf5d4e27d369ec96" resname="Resting heart rate" approved="yes">
         <source>Resting heart rate</source>
-        <target>Resting heart rate</target>
+        <target state="translated">Ruheherzfrequenz</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/resting_heart_rate.html.twig</jms:reference-file>
         <jms:reference-file line="13">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/trimp.html.twig</jms:reference-file>
@@ -365,9 +365,9 @@
         <target>SWOLF is a metric of swimming efficiency and is calculated as sum of time (in seconds) and stroke count for a given distance (traditionally the pool length, i.e. 50m). Stroke count is used as an indicator of effort, but it's not always a good one.</target>
         <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/swolf.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2d8243a2c0e464492c9d563c4f92c56ae3421bcc" resname="See also">
+      <trans-unit id="2d8243a2c0e464492c9d563c4f92c56ae3421bcc" resname="See also" approved="yes">
         <source>See also</source>
-        <target>See also</target>
+        <target state="translated">Siehe auch</target>
         <jms:reference-file line="2">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/_macro/see_also.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="82951aa1014ec3ad0edd4f30e951c44ddc258921" resname="Similar to %atl%, Runalyze uses the alltime maximum CTL to express current CTL as percentage.">
@@ -380,9 +380,9 @@
         <target>Similarly, SWOLF cycles is calculated as sum of time (in seconds) and stroke cycles (i.e. number of hand entries only on one side). Some people prefer SWOLF cycles as metric for finding one's most efficient swimming style.</target>
         <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/swolf.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4aa8eb768dabc5d491e59b9b1cca17db04cf8cfc" resname="Somewhat hard">
+      <trans-unit id="4aa8eb768dabc5d491e59b9b1cca17db04cf8cfc" resname="Somewhat hard" approved="yes">
         <source>Somewhat hard</source>
-        <target>Somewhat hard</target>
+        <target state="translated">etwas anstrengend</target>
         <jms:reference-file line="21">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="40af20dbdee29d6906f7d2797b8c5efa154c189b" resname="Standard deviation of R-R intervals">
@@ -486,20 +486,20 @@
         <target>Training Impulse, developed by Banister in 1991, is a method to quantify training load based on heart rate and duration of an exercise. The method uses heart rate reserve, which considers %restingHeartRate% as well as %maximumHeartRate%, and a gender-specific weighting factor.</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/trimp.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d1f0a459e1963bf098b0d26aefed85503435ccf9" resname="Training Stress Balance">
+      <trans-unit id="d1f0a459e1963bf098b0d26aefed85503435ccf9" resname="Training Stress Balance" approved="yes">
         <source>Training Stress Balance</source>
-        <target>Training Stress Balance</target>
+        <target state="translated">Stress Balance</target>
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7bfc059ecd59974387cb6656bea731291074117f" resname="Training effect">
+      <trans-unit id="7bfc059ecd59974387cb6656bea731291074117f" resname="Training effect" approved="yes">
         <source>Training effect</source>
-        <target>Training effect</target>
+        <target state="translated">Training Effekt</target>
         <jms:reference-file line="28">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="01f74f9d0a49a1255dce6c4d76740f430f80626d" resname="Training strain">
+      <trans-unit id="01f74f9d0a49a1255dce6c4d76740f430f80626d" resname="Training strain" approved="yes">
         <source>Training strain</source>
-        <target>Training strain</target>
+        <target state="translated">Trainingsbelastung</target>
         <jms:reference-file line="26">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="20">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
@@ -510,25 +510,25 @@
         <target>Training stress balance is the difference between CTL and ATL (in absolute values) and can help as indicator for hard training (negative values) and rest (positive values).</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="50172140252ee1bd80b8b278df7a400ef39494eb" resname="Very hard">
+      <trans-unit id="50172140252ee1bd80b8b278df7a400ef39494eb" resname="Very hard" approved="yes">
         <source>Very hard</source>
-        <target>Very hard</target>
+        <target state="translated">sehr anstrengedn</target>
         <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f3de142306aee84fc052676a185ed5a086e49efd" resname="Very light">
+      <trans-unit id="f3de142306aee84fc052676a185ed5a086e49efd" resname="Very light" approved="yes">
         <source>Very light</source>
-        <target>Very light</target>
+        <target state="translated">sehr leicht</target>
         <jms:reference-file line="17">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e802847e591646307799c05ea8d85269f1eeefe1" resname="Windchill">
+      <trans-unit id="e802847e591646307799c05ea8d85269f1eeefe1" resname="Windchill" approved="yes">
         <source>Windchill</source>
-        <target>Windchill</target>
+        <target state="translated">Windkälte</target>
         <jms:reference-file line="31">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/windchill.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="64dfbcb78066b2fb2d43b74b6d92ad9ac0dc9d5c" resname="per week">
+      <trans-unit id="64dfbcb78066b2fb2d43b74b6d92ad9ac0dc9d5c" resname="per week" approved="yes">
         <source>per week</source>
-        <target>per week</target>
+        <target state="translated">pro Woche</target>
         <jms:reference-file line="32">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
         <jms:reference-file line="37">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
