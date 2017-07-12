@@ -41,9 +41,9 @@
         <target>By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/marathon_shape.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="55a89527100d7affacb785a535913eceec75eda6" resname="Caution">
+      <trans-unit id="55a89527100d7affacb785a535913eceec75eda6" resname="Caution" approved="yes">
         <source>Caution</source>
-        <target>Caution</target>
+        <target state="translated">Vorsicht</target>
         <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6dc0f2814c3ef39ad1d1778662a1b7e4463ee1e5" resname="Chronic Training Load">
