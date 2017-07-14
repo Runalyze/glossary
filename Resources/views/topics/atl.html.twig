@@ -4,14 +4,14 @@
 {% import 'GlossaryBundle::_macro/see_also.html.twig' as see %}
 
 {% block headline %}
-    {% trans %}Actual Training Load{% endtrans %} (ATL)
+    {% trans %}Acute Training Load{% endtrans %} (ATL)
 {% endblock %}
 
 {% block glossaryContent %}
     <p class="text">
         {% trans with {
             '%trimp%': '<a href="' ~ path('glossary-trimp') ~ '">TRIMP</a>'
-        } %}Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.{% endtrans %}
+        } %}Acute Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.{% endtrans %}
     </p>
 
     <p class="text">
@@ -24,6 +24,8 @@
     {{ see.seeAlsoFoot() }}
 
     {{ ref.referencesHead() }}
+    {{ ref.singleReferenceTextWithLink("Calvert, T. W., Banister, E. W., Savage, M. V., Bach, T.: A Systems Model of the Effects of Training on Physical Performance, IEEE Transactions on Systems, Man, and Cybernetics, volume SMC-6, issue 2, 1976, pp. 94–102", "http://dx.doi.org/10.1109/TSMC.1976.5409179", "doi 10.1109/TSMC.1976.5409179") }}
     {{ ref.singleReferenceLink("http://fellrnr.com/wiki/Modeling_Human_Performance", "Fellrnr.com - Modeling Human Performance") }}
+    {{ ref.singleReferenceLink("https://www.trainingpeaks.com/blog/the-science-of-the-performance-manager/", "The Training Stress Balance model by Andrew Coggan") }}
     {{ ref.referencesFoot() }}
 {% endblock %}
