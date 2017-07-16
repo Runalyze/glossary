@@ -17,5 +17,10 @@
             {% block glossaryContent %}{% endblock %}
         </div>
         {% endblock %}
+        <p class="info">
+            {% trans with {'%github%': '<a href="https://github.com/Runalyze/glossary/issues/new">Github</a>'}%}If you have further explanations, references or ideas for some definitions create an issue on %github% or write us an email.{% endtrans %}
+            <br>
+            {% trans with {'%translate%' : '<a href="https://translate.runalyze.com/projects/runalyze/glossary">translate.runalyze.com</a>'} %}This entry is not available in your language or you have improvement suggestions? Help us translating those definitions at %translate%.{% endtrans %}
+        </p>
     </div>
 {% endblock %}
