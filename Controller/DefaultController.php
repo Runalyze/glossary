@@ -161,4 +161,52 @@ class DefaultController extends Controller
     {
         return $this->render('GlossaryBundle:topics:windchill.html.twig');
     }
+
+    /**
+     * @Route("/groundcontact", name="glossary-groundcontact")
+     */
+    public function groundcontactAction()
+    {
+        return $this->render('GlossaryBundle:topics:groundcontact.html.twig');
+    }
+
+    /**
+     * @Route("/groundcontact-time-balance", name="glossary-groundcontact-time-balance")
+     */
+    public function groundcontactTimeBalanceAction()
+    {
+        return $this->render('GlossaryBundle:topics:groundcontact_balance.html.twig');
+    }
+
+    /**
+     * @Route("/vertical-ratio", name="glossary-vertical-ratio")
+     */
+    public function verticalRatioAction()
+    {
+        return $this->render('GlossaryBundle:topics:vertical_ratio.html.twig');
+    }
+
+    /**
+     * @Route("/vertical-oscillation", name="glossary-vertical-oscillation")
+     */
+    public function verticalOscillationAction()
+    {
+        return $this->render('GlossaryBundle:topics:vertical_oscillation.html.twig');
+    }
+
+    /**
+     * @Route("/stride-length", name="glossary-stride-length")
+     */
+    public function strideLengthAction()
+    {
+        return $this->render('GlossaryBundle:topics:stride_length.html.twig');
+    }
+
+    /**
+     * @Route("/cadence", name="glossary-cadence")
+     */
+    public function cadenceAction()
+    {
+        return $this->render('GlossaryBundle:topics:cadence.html.twig');
+    }
 }

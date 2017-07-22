@@ -1,0 +1,17 @@
+{% extends "GlossaryBundle::_base.html.twig" %}
+
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+
+{% block headline %}
+    {% trans %}Groundcontact time balance{% endtrans %}
+{% endblock %}
+
+{% block glossaryContent %}
+    <p class="text">
+        {% trans %}{% endtrans %}
+    </p>
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceTextWithLink("Running dynamics", "http://fellrnr.com/wiki/Running_Dynamics", "http://fellrnr.com") }}
+    {{ ref.referencesFoot() }}
+{% endblock %}
