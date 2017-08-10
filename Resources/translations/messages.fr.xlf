@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2017-07-08T15:59:24Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
     <header>
@@ -16,9 +16,9 @@
         <target>Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended.</target>
         <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="53c7483dac7565be1b8b8e2e81cef044c6d03a59" resname="Actual Training Load">
+      <trans-unit id="53c7483dac7565be1b8b8e2e81cef044c6d03a59" resname="Actual Training Load" approved="yes">
         <source>Actual Training Load</source>
-        <target>Actual Training Load</target>
+        <target state="translated">Charge d'entraînement actuel</target>
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="99244cf9be797f20de3395e653a4c992f9665c01" resname="Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.">
@@ -41,14 +41,14 @@
         <target>By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/marathon_shape.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="55a89527100d7affacb785a535913eceec75eda6" resname="Caution">
+      <trans-unit id="55a89527100d7affacb785a535913eceec75eda6" resname="Caution" approved="yes">
         <source>Caution</source>
-        <target>Caution</target>
+        <target state="translated">Avertissement</target>
         <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6dc0f2814c3ef39ad1d1778662a1b7e4463ee1e5" resname="Chronic Training Load">
+      <trans-unit id="6dc0f2814c3ef39ad1d1778662a1b7e4463ee1e5" resname="Chronic Training Load" approved="yes">
         <source>Chronic Training Load</source>
-        <target>Chronic Training Load</target>
+        <target state="translated">Charge d'entraînement chronique</target>
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/ctl.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ade055974a1a9eeda24b67ac6c97024df419257d" resname="Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default.">
