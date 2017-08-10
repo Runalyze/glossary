@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2017-07-08T15:59:26Z" source-language="en" target-language="ru" datatype="plaintext" original="not.available">
     <header>
@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="b0e92863fd6a05e45024aedca637f84d834aac4c" resname="%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.">
+      <trans-unit id="b0e92863fd6a05e45024aedca637f84d834aac4c" resname="%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events." approved="yes">
         <source>%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.</source>
-        <target>%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.</target>
+        <target state="translated">%VO2max% является научной метрикой максимального усвоения кислорода, который в большой степени коррелирует с максимальной беговой производительностью. В тоже время, два атлета с одинаковым значением %VO2max% не обязательно показывают одинаковый соревновательный результат, поскольку может различаться их эффективность. Вместо чистого %VO2max% (который можно измерить лабораторно), интерес представляет комбинация %VO2max% и беговой эффективности. Полученный таким образом Эффективный %VO2max% можно использовать как точный предсказатель результата предстоящего соревнования.</target>
         <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/vo2max.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6fbd4e792657cb7ee4267eb6e7fda023c1a01545" resname="Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended.">
@@ -16,24 +16,24 @@
         <target>Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended.</target>
         <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="53c7483dac7565be1b8b8e2e81cef044c6d03a59" resname="Actual Training Load">
+      <trans-unit id="53c7483dac7565be1b8b8e2e81cef044c6d03a59" resname="Actual Training Load" approved="yes">
         <source>Actual Training Load</source>
-        <target>Actual Training Load</target>
+        <target state="translated">Фактическая тренировочная нагрузка</target>
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="99244cf9be797f20de3395e653a4c992f9665c01" resname="Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.">
+      <trans-unit id="99244cf9be797f20de3395e653a4c992f9665c01" resname="Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default." approved="yes">
         <source>Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.</source>
-        <target>Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.</target>
+        <target state="translated">Фактическая тренировочная нагрузка характеризует степень усталости, является экспоненциально взвешенным средним вашей тренировочной нагрузки (т.е. %trimp%) за 7 дней, по умолчанию.</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2935762a5ed0e4456dc04618a7df1a75d718ff6f" resname="As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given.">
+      <trans-unit id="2935762a5ed0e4456dc04618a7df1a75d718ff6f" resname="As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given." approved="yes">
         <source>As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given.</source>
-        <target>As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given.</target>
+        <target state="translated">Поскольку абсолютное значение частоты сердечных сокращений может относиться к разным интенсивностям в зависимости от максимума, все вычисления, связанные с сердечным ритмом, основаны на относительной частоте сердечных сокращений и, следовательно, требуют предоставления максимальной частоты сердечных сокращений.</target>
         <jms:reference-file line="13">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7af35388c830ec509f8d75e415145861761bb092" resname="As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor.">
+      <trans-unit id="7af35388c830ec509f8d75e415145861761bb092" resname="As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor." approved="yes">
         <source>As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor.</source>
-        <target>As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor.</target>
+        <target state="translated">Поскольку частота сердечных сокращений у каждого может вести себя по-разному, Runalyze использует дополнительный индивидуальный поправочный коэффициент, который рассчитывается на основе результата лучшего забега и частоты сердечных сокращений автоматически. В качестве альтернативы, спортсмены могут выбрать поправочный коэффициент вручную.</target>
         <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/vo2max.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ba378d75807a73754f29df0dcfeb416c5bdb2da8" resname="By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.">
