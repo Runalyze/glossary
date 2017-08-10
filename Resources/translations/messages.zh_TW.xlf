@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2017-07-08T15:59:27Z" source-language="en" target-language="zh_TW" datatype="plaintext" original="not.available">
     <header>
@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="b0e92863fd6a05e45024aedca637f84d834aac4c" resname="%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.">
+      <trans-unit id="b0e92863fd6a05e45024aedca637f84d834aac4c" resname="%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events." approved="yes">
         <source>%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.</source>
-        <target>%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.</target>
+        <target state="translated">%VO2max% 是一個與極限跑步表現有很大相關之科學化最大攝氧量指標．兩個跑者可能有相同的%VO2max% 數值，但他們的表現可能不盡相同，因為其跑步效率仍然有差異．相對於在實驗室量測的精確%VO2max% ，我們對於%VO2max% 及跑步效率的結合較有興趣，其反應出的有效%VO2max% 可被用來直接預測後續的跑步活動．</target>
         <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/vo2max.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6fbd4e792657cb7ee4267eb6e7fda023c1a01545" resname="Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended.">
