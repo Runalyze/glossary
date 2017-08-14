@@ -36,143 +36,143 @@
         <target state="translated">Поскольку частота сердечных сокращений у каждого может вести себя по-разному, Runalyze использует дополнительный индивидуальный поправочный коэффициент, который рассчитывается на основе результата лучшего забега и частоты сердечных сокращений автоматически. В качестве альтернативы, спортсмены могут выбрать поправочный коэффициент вручную.</target>
         <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/vo2max.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ba378d75807a73754f29df0dcfeb416c5bdb2da8" resname="By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.">
+      <trans-unit id="ba378d75807a73754f29df0dcfeb416c5bdb2da8" resname="By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete." approved="yes">
         <source>By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.</source>
-        <target>By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.</target>
+        <target state="translated">По умолчанию эти расчеты основаны на тренировках за последние шесть месяцев, километры недельного пробега составляют 2/3, а длинные забеги - 1/3 «формы марафона». Эти параметры могут быть изменены индивидуально каждым спортсменом.</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/marathon_shape.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="55a89527100d7affacb785a535913eceec75eda6" resname="Caution">
+      <trans-unit id="55a89527100d7affacb785a535913eceec75eda6" resname="Caution" approved="yes">
         <source>Caution</source>
-        <target>Caution</target>
+        <target state="translated">Осторожно</target>
         <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6dc0f2814c3ef39ad1d1778662a1b7e4463ee1e5" resname="Chronic Training Load">
+      <trans-unit id="6dc0f2814c3ef39ad1d1778662a1b7e4463ee1e5" resname="Chronic Training Load" approved="yes">
         <source>Chronic Training Load</source>
-        <target>Chronic Training Load</target>
+        <target state="translated">Постоянная тренировочная нагрузка</target>
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/ctl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ade055974a1a9eeda24b67ac6c97024df419257d" resname="Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default.">
+      <trans-unit id="ade055974a1a9eeda24b67ac6c97024df419257d" resname="Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default." approved="yes">
         <source>Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default.</source>
-        <target>Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default.</target>
+        <target state="translated">Постоянная тренировочная нагрузка характеризует текущую степень тренированности, является экспоненциально взвешенной средней тренировочной нагрузкой (т.е. % Trimp%) в течение 42 дней (по умолчанию).</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/ctl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="58d17582a05d81dbc970a2fb5dde4c86c385cf6c" resname="Danger">
+      <trans-unit id="58d17582a05d81dbc970a2fb5dde4c86c385cf6c" resname="Danger" approved="yes">
         <source>Danger</source>
-        <target>Danger</target>
+        <target state="translated">Опасность</target>
         <jms:reference-file line="33">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6e05d28b1b5a19d5e30bcdc9bb4bd043bb901595" resname="Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance.">
+      <trans-unit id="6e05d28b1b5a19d5e30bcdc9bb4bd043bb901595" resname="Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance." approved="yes">
         <source>Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance.</source>
-        <target>Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance.</target>
+        <target state="translated">Не улучшает кардиореспираторную форму. Это подходит для восстановления и развития выносливости.</target>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5d31af55249f7e47ead11641dc57fa5cf4ba6da8" resname="Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.">
+      <trans-unit id="5d31af55249f7e47ead11641dc57fa5cf4ba6da8" resname="Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards." approved="yes">
         <source>Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.</source>
-        <target>Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.</target>
+        <target state="translated">Улучшает кардиореспираторную форму, только если после этого осуществляется адекватное восстановление.</target>
         <jms:reference-file line="41">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0df9824336c43480212d28e69a6e040729284513" resname="Easy TRIMP">
+      <trans-unit id="0df9824336c43480212d28e69a6e040729284513" resname="Easy TRIMP" approved="yes">
         <source>Easy TRIMP</source>
-        <target>Easy TRIMP</target>
+        <target state="translated">Легкий ТРИПМ</target>
         <jms:reference-file line="24">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
         <jms:reference-file line="20">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f5b714cf9c01c1409607b3b011a56706a8e8a162" resname="Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress.">
+      <trans-unit id="f5b714cf9c01c1409607b3b011a56706a8e8a162" resname="Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress." approved="yes">
         <source>Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress.</source>
-        <target>Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress.</target>
+        <target state="translated">Легкий %TRIMP% - это максимально допустимый %TRIMP% на следующий день, который будет поддерживать TSB на 0, т.е. сохранит сбалансированную тренировочную нагрузку.</target>
         <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="771bde487f47893e5588724872fd1fbf676c3ef7" resname="Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person.">
+      <trans-unit id="771bde487f47893e5588724872fd1fbf676c3ef7" resname="Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person." approved="yes">
         <source>Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person.</source>
-        <target>Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person.</target>
+        <target state="translated">Каждый спортсмен должен выяснить свой максимальный пульс, поскольку он очень индивидуальный, а общие правила могут быть далеки от истины для конкретного человека.</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c32ed5eccf1923cb5513356a0692775c0f820fb4" resname="Extreme caution">
+      <trans-unit id="c32ed5eccf1923cb5513356a0692775c0f820fb4" resname="Extreme caution" approved="yes">
         <source>Extreme caution</source>
-        <target>Extreme caution</target>
+        <target state="translated">Крайняя осторожность</target>
         <jms:reference-file line="29">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c1e5fa39df05e344cbc0712b2c7a19631263ab2c" resname="Extreme danger">
+      <trans-unit id="c1e5fa39df05e344cbc0712b2c7a19631263ab2c" resname="Extreme danger" approved="yes">
         <source>Extreme danger</source>
-        <target>Extreme danger</target>
+        <target state="translated">Крайняя опасность</target>
         <jms:reference-file line="37">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="33bd5087468ac086fac47e414f787a063190a0fa" resname="Extremely hard">
+      <trans-unit id="33bd5087468ac086fac47e414f787a063190a0fa" resname="Extremely hard" approved="yes">
         <source>Extremely hard</source>
-        <target>Extremely hard</target>
+        <target state="translated">Очень тяжело</target>
         <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9054d111bd557977e52db876e71481ba1484b351" resname="Extremely light">
+      <trans-unit id="9054d111bd557977e52db876e71481ba1484b351" resname="Extremely light" approved="yes">
         <source>Extremely light</source>
-        <target>Extremely light</target>
+        <target state="translated">Очень легко</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2701f8c51e1f9bb69344f1e6087b2764bea7f3f2" resname="Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.">
+      <trans-unit id="2701f8c51e1f9bb69344f1e6087b2764bea7f3f2" resname="Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps." approved="yes">
         <source>Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.</source>
-        <target>Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.</target>
+        <target state="translated">Усталость возможна при продолжительном воздействии и активности. Продолжение активности может привести к тепловым судорогам.</target>
         <jms:reference-file line="26">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary">
+      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary" approved="yes">
         <source>Glossary</source>
-        <target>Glossary</target>
+        <target state="translated">Глоссарий</target>
         <jms:reference-file line="8">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/_base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="20a89915f18c15e815e6422bf02ca6944f6dd8d8" resname="Hard">
+      <trans-unit id="20a89915f18c15e815e6422bf02ca6944f6dd8d8" resname="Hard" approved="yes">
         <source>Hard</source>
-        <target>Hard</target>
+        <target state="translated">Тяжело</target>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5b290995d5b779c47e12e4fa3485f0aba6022126" resname="Heart rate variability">
+      <trans-unit id="5b290995d5b779c47e12e4fa3485f0aba6022126" resname="Heart rate variability" approved="yes">
         <source>Heart rate variability</source>
-        <target>Heart rate variability</target>
+        <target state="translated">Изменчивость сердечного ритма</target>
         <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6e8809b6a3a9cc2e302390c2ca9de384c8ea51e4" resname="Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status.">
+      <trans-unit id="6e8809b6a3a9cc2e302390c2ca9de384c8ea51e4" resname="Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status." approved="yes">
         <source>Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status.</source>
-        <target>Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status.</target>
+        <target state="translated">Изменчивость сердечного ритма (ИСР) является физиологическим явлением изменения временного интервала между сердечными сокращениями и измеряется изменением интервала между ритмами (обычно обозначается как интервал R-R). Хорошо известно, что ИСР напрямую связан с взаимозависимыми регуляторными системами организма и может ярко характеризовать степень восстановления спортсмена.</target>
         <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f66940af41f069fd172f4195f422fd35db1e978d" resname="Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity.">
+      <trans-unit id="f66940af41f069fd172f4195f422fd35db1e978d" resname="Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity." approved="yes">
         <source>Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity.</source>
-        <target>Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity.</target>
+        <target state="translated">Возможны тепловые судороги и тепловое истощение; при продолжении активности вероятен тепловой удар.</target>
         <jms:reference-file line="34">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e13630b294cad92a8eba4d69d8d34390a3a7456b" resname="Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke.">
+      <trans-unit id="e13630b294cad92a8eba4d69d8d34390a3a7456b" resname="Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke." approved="yes">
         <source>Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke.</source>
-        <target>Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke.</target>
+        <target state="translated">Возможны тепловые судороги и тепловое истощение; продолжение активности может привести к тепловому удару.</target>
         <jms:reference-file line="30">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7cae891b77fd34ac239e3f82d36ed829ffe71619" resname="Heat index">
+      <trans-unit id="7cae891b77fd34ac239e3f82d36ed829ffe71619" resname="Heat index" approved="yes">
         <source>Heat index</source>
-        <target>Heat index</target>
+        <target state="translated">Индекс жары</target>
         <jms:reference-file line="32">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="23c1823dabdde065a6df1727baa92f1b170a78c4" resname="Heat index levels">
+      <trans-unit id="23c1823dabdde065a6df1727baa92f1b170a78c4" resname="Heat index levels" approved="yes">
         <source>Heat index levels</source>
-        <target>Heat index levels</target>
+        <target state="translated">Уровень индекса жары</target>
         <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7793e3b614c5b52a00ef3d26576ad3c41ab9081e" resname="Heat stroke is imminent.">
+      <trans-unit id="7793e3b614c5b52a00ef3d26576ad3c41ab9081e" resname="Heat stroke is imminent." approved="yes">
         <source>Heat stroke is imminent.</source>
-        <target>Heat stroke is imminent.</target>
+        <target state="translated">Тепловой удар неизбежен.</target>
         <jms:reference-file line="38">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7db6780c88a68051332ed2eb5f1b33c039e29e4d" resname="Highly improves cardiorespiratory fitness, but requires easier workouts to balance the training.">
+      <trans-unit id="7db6780c88a68051332ed2eb5f1b33c039e29e4d" resname="Highly improves cardiorespiratory fitness, but requires easier workouts to balance the training." approved="yes">
         <source>Highly improves cardiorespiratory fitness, but requires easier workouts to balance the training.</source>
-        <target>Highly improves cardiorespiratory fitness, but requires easier workouts to balance the training.</target>
+        <target state="translated">В большой степени улучшает кардиореспираторную форму, но требует более легких следующих тренировок, чтобы сбалансировать нагрузку.</target>
         <jms:reference-file line="36">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ef80b6b5c560678a697a037ad7efcbde1215b362" resname="Highly improving training effect">
+      <trans-unit id="ef80b6b5c560678a697a037ad7efcbde1215b362" resname="Highly improving training effect" approved="yes">
         <source>Highly improving training effect</source>
-        <target>Highly improving training effect</target>
+        <target state="translated">Значительно повышает тренировочный эффект</target>
         <jms:reference-file line="35">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="69e3e554b82e2707f3f6be67de5c380d1c73659d" resname="If an important race is ahead, TSB should be clearly positive. As levels of CTL and ATL differ from athlete to athlete, no concrete suggestions can be made.">
+      <trans-unit id="69e3e554b82e2707f3f6be67de5c380d1c73659d" resname="If an important race is ahead, TSB should be clearly positive. As levels of CTL and ATL differ from athlete to athlete, no concrete suggestions can be made." approved="yes">
         <source>If an important race is ahead, TSB should be clearly positive. As levels of CTL and ATL differ from athlete to athlete, no concrete suggestions can be made.</source>
-        <target>If an important race is ahead, TSB should be clearly positive. As levels of CTL and ATL differ from athlete to athlete, no concrete suggestions can be made.</target>
+        <target state="translated">Если предстоит важная гонка, TSB должен быть строго положительным. Так как уровень CTL и ATL различаются от атлета к атлету, четких рекомендаций дать нельзя.</target>
         <jms:reference-file line="13">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8fcf53da417f208554558ada9e967bbe4367cb7c" resname="Improves cardiorespiratory fitness.">
