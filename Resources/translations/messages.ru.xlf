@@ -175,142 +175,142 @@
         <target state="translated">Если предстоит важная гонка, TSB должен быть строго положительным. Так как уровень CTL и ATL различаются от атлета к атлету, четких рекомендаций дать нельзя.</target>
         <jms:reference-file line="13">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8fcf53da417f208554558ada9e967bbe4367cb7c" resname="Improves cardiorespiratory fitness.">
+      <trans-unit id="8fcf53da417f208554558ada9e967bbe4367cb7c" resname="Improves cardiorespiratory fitness." approved="yes">
         <source>Improves cardiorespiratory fitness.</source>
-        <target>Improves cardiorespiratory fitness.</target>
+        <target state="translated">Улучшает кардиореспираторную форму.</target>
         <jms:reference-file line="31">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cfac66e74791ff5bee46bcbcd4acaacfac8796aa" resname="Improving training effect">
+      <trans-unit id="cfac66e74791ff5bee46bcbcd4acaacfac8796aa" resname="Improving training effect" approved="yes">
         <source>Improving training effect</source>
-        <target>Improving training effect</target>
+        <target state="translated">Улучшает тренировочный эффект</target>
         <jms:reference-file line="30">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e92a56ee9c12bd063e624cee862a2fc8bfb5d9e7" resname="In Runalyze, windchill is a metric for the apparent temperature that takes the Wind Chill effect into account.">
+      <trans-unit id="e92a56ee9c12bd063e624cee862a2fc8bfb5d9e7" resname="In Runalyze, windchill is a metric for the apparent temperature that takes the Wind Chill effect into account." approved="yes">
         <source>In Runalyze, windchill is a metric for the apparent temperature that takes the Wind Chill effect into account.</source>
-        <target>In Runalyze, windchill is a metric for the apparent temperature that takes the Wind Chill effect into account.</target>
+        <target state="translated">В Runalyze, windchill - параметр для кажущейся температуры, которая учитывает охлаждающий эффект ветра.</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/windchill.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a36ef8aba22905e2d2efbf1ac1d6230d5761859d" resname="Light">
+      <trans-unit id="a36ef8aba22905e2d2efbf1ac1d6230d5761859d" resname="Light" approved="yes">
         <source>Light</source>
-        <target>Light</target>
+        <target state="translated">Легкий</target>
         <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b987ea2468ff96549181c5f0f90c2647880d2962" resname="Maintaining training effect">
+      <trans-unit id="b987ea2468ff96549181c5f0f90c2647880d2962" resname="Maintaining training effect" approved="yes">
         <source>Maintaining training effect</source>
-        <target>Maintaining training effect</target>
+        <target state="translated">Поддержание тренировочного эффекта</target>
         <jms:reference-file line="26">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0b3dec76e3c49497244a4f19e798eb7f864662ae" resname="Maintains cardiorespiratory fitness and builds foundation for more demanding workours in future.">
+      <trans-unit id="0b3dec76e3c49497244a4f19e798eb7f864662ae" resname="Maintains cardiorespiratory fitness and builds foundation for more demanding workours in future." approved="yes">
         <source>Maintains cardiorespiratory fitness and builds foundation for more demanding workours in future.</source>
-        <target>Maintains cardiorespiratory fitness and builds foundation for more demanding workours in future.</target>
+        <target state="translated">Поддерживает кардиореспираторную форму и создает основу для более тяжелых тренировок в будущем.</target>
         <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5d108a7340e2b565164cfac5ff2251b9e7bca312" resname="Marathon shape">
+      <trans-unit id="5d108a7340e2b565164cfac5ff2251b9e7bca312" resname="Marathon shape" approved="yes">
         <source>Marathon shape</source>
-        <target>Marathon shape</target>
+        <target state="translated">Готовность к марафону</target>
         <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/marathon_shape.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="20dc29a18aa20007121c420d752c8f601ddbc8f4" resname="Maximal exertion">
+      <trans-unit id="20dc29a18aa20007121c420d752c8f601ddbc8f4" resname="Maximal exertion" approved="yes">
         <source>Maximal exertion</source>
-        <target>Maximal exertion</target>
+        <target state="translated">Максимальное напряжение</target>
         <jms:reference-file line="28">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c5b82f351658939ccc3906a5ce1bc61281ee12e5" resname="Maximum heart rate">
+      <trans-unit id="c5b82f351658939ccc3906a5ce1bc61281ee12e5" resname="Maximum heart rate" approved="yes">
         <source>Maximum heart rate</source>
-        <target>Maximum heart rate</target>
+        <target state="translated">Максимальный пульс</target>
         <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
         <jms:reference-file line="14">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/trimp.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7468081f51301f3d3320720a74ee85a8a8b83384" resname="Measuring resting heart rate each day as part of a morning ritual is recommended for athletes. Increases in resting heart rate can indicate stress and overtraining.">
+      <trans-unit id="7468081f51301f3d3320720a74ee85a8a8b83384" resname="Measuring resting heart rate each day as part of a morning ritual is recommended for athletes. Increases in resting heart rate can indicate stress and overtraining." approved="yes">
         <source>Measuring resting heart rate each day as part of a morning ritual is recommended for athletes. Increases in resting heart rate can indicate stress and overtraining.</source>
-        <target>Measuring resting heart rate each day as part of a morning ritual is recommended for athletes. Increases in resting heart rate can indicate stress and overtraining.</target>
+        <target state="translated">Спортсменам рекомендуется измерять пульс покоя каждый день в рамках утреннего ритуала. Увеличение пульса покоя может указывать на стресс и перетренированность.</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/resting_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="692fc14c0d50b5abdf9beac483647d95341c98b5" resname="Metrics for HRV">
+      <trans-unit id="692fc14c0d50b5abdf9beac483647d95341c98b5" resname="Metrics for HRV" approved="yes">
         <source>Metrics for HRV</source>
-        <target>Metrics for HRV</target>
+        <target state="translated">Показатели для ВСР</target>
         <jms:reference-file line="14">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1cfb68095daa6af4c493a5166fd84ecbd342c8ec" resname="Minor training effect">
+      <trans-unit id="1cfb68095daa6af4c493a5166fd84ecbd342c8ec" resname="Minor training effect" approved="yes">
         <source>Minor training effect</source>
-        <target>Minor training effect</target>
+        <target state="translated">Незначительный тренировочный эффект</target>
         <jms:reference-file line="22">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e5cee8b95402c56c6e8bf68b1e8392f321109906" resname="Monotony">
+      <trans-unit id="e5cee8b95402c56c6e8bf68b1e8392f321109906" resname="Monotony" approved="yes">
         <source>Monotony</source>
-        <target>Monotony</target>
+        <target state="translated">Монотонность</target>
         <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_strain.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0b6cda35817025c4e5ef70bd47b09e26b006fec2" resname="Natural logarithm of RMSSD">
+      <trans-unit id="0b6cda35817025c4e5ef70bd47b09e26b006fec2" resname="Natural logarithm of RMSSD" approved="yes">
         <source>Natural logarithm of RMSSD</source>
-        <target>Natural logarithm of RMSSD</target>
+        <target state="translated">Натуральный логарифм от RMSSD</target>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7ed12cb7b7094edb08b930b8cc8f9f07b07959d9" resname="No effect">
+      <trans-unit id="7ed12cb7b7094edb08b930b8cc8f9f07b07959d9" resname="No effect" approved="yes">
         <source>No effect</source>
-        <target>No effect</target>
+        <target state="translated">Нет эффекта</target>
         <jms:reference-file line="21">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6fccbcc780d1a1ae131019607d0d4071d2eb784f" resname="No exertion at all">
+      <trans-unit id="6fccbcc780d1a1ae131019607d0d4071d2eb784f" resname="No exertion at all" approved="yes">
         <source>No exertion at all</source>
-        <target>No exertion at all</target>
+        <target state="translated">Никакой нагрузки</target>
         <jms:reference-file line="14">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="91a8efd280c0c6d748c999d62d8593c161cd35e9" resname="No training effect">
+      <trans-unit id="91a8efd280c0c6d748c999d62d8593c161cd35e9" resname="No training effect" approved="yes">
         <source>No training effect</source>
-        <target>No training effect</target>
+        <target state="translated">Отсутствие тренировочного эффекта</target>
         <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b5cd39eda8c2539f5722a73d7ca9f43c73f59395" resname="Notice: This calculation is based on the sum of the *all day* TRIMP value. It is based on the overall strain made a day, no matter which kind of activity has been done.">
+      <trans-unit id="b5cd39eda8c2539f5722a73d7ca9f43c73f59395" resname="Notice: This calculation is based on the sum of the *all day* TRIMP value. It is based on the overall strain made a day, no matter which kind of activity has been done." approved="yes">
         <source>Notice: This calculation is based on the sum of the *all day* TRIMP value. It is based on the overall strain made a day, no matter which kind of activity has been done.</source>
-        <target>Notice: This calculation is based on the sum of the *all day* TRIMP value. It is based on the overall strain made a day, no matter which kind of activity has been done.</target>
+        <target state="translated">Примечание. Этот расчет основан на сумме значения TRIMP за весь день. Он основан на общем напряжении за день, независимо от видов активности.</target>
         <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="56ccfca015890c7861ef03ff31fad3a8f1c7a4d0" resname="Overtraining">
+      <trans-unit id="56ccfca015890c7861ef03ff31fad3a8f1c7a4d0" resname="Overtraining" approved="yes">
         <source>Overtraining</source>
-        <target>Overtraining</target>
+        <target state="translated">Перетренированность</target>
         <jms:reference-file line="40">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0efc2e6be4c23b9a513d7ce0dcff8ed80e8912e7" resname="Overview">
+      <trans-unit id="0efc2e6be4c23b9a513d7ce0dcff8ed80e8912e7" resname="Overview" approved="yes">
         <source>Overview</source>
-        <target>Overview</target>
+        <target state="translated">Обзор</target>
         <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="316047c6d1d3c49069bbbd100fa00f784ba5e6fc" resname="Performance condition">
+      <trans-unit id="316047c6d1d3c49069bbbd100fa00f784ba5e6fc" resname="Performance condition" approved="yes">
         <source>Performance condition</source>
-        <target>Performance condition</target>
+        <target state="translated">Статус производительности</target>
         <jms:reference-file line="29">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/performance_condition.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bcab1c9a80024aa03d06ca52dc1bbfd1c84e83e1" resname="Performance condition is a metric provided by Garmin that analyzes pace, heart rate and heart rate variability within the first 20 minutes of an activity to make a real-time assessment of your ability to perform compared to your current fitness level.">
+      <trans-unit id="bcab1c9a80024aa03d06ca52dc1bbfd1c84e83e1" resname="Performance condition is a metric provided by Garmin that analyzes pace, heart rate and heart rate variability within the first 20 minutes of an activity to make a real-time assessment of your ability to perform compared to your current fitness level." approved="yes">
         <source>Performance condition is a metric provided by Garmin that analyzes pace, heart rate and heart rate variability within the first 20 minutes of an activity to make a real-time assessment of your ability to perform compared to your current fitness level.</source>
-        <target>Performance condition is a metric provided by Garmin that analyzes pace, heart rate and heart rate variability within the first 20 minutes of an activity to make a real-time assessment of your ability to perform compared to your current fitness level.</target>
+        <target state="translated">Эффективность тренировки - это метрика, предоставляемая Garmin, которая анализирует темп, сердечный ритм и вариабельность сердечного ритма в течение первых 20 минут активности, чтобы в реальном времени оценить вашу готовность к нагрузкам, в сравнении с вашим текущим уровнем тренированности.</target>
         <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/performance_condition.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2e177effbb3d01f95fb0798c17f613fa162891ff" resname="Performance condition values range from +20 to -20, whereby positive values mean that you are rested and in shape for a good and intense workout.">
+      <trans-unit id="2e177effbb3d01f95fb0798c17f613fa162891ff" resname="Performance condition values range from +20 to -20, whereby positive values mean that you are rested and in shape for a good and intense workout." approved="yes">
         <source>Performance condition values range from +20 to -20, whereby positive values mean that you are rested and in shape for a good and intense workout.</source>
-        <target>Performance condition values range from +20 to -20, whereby positive values mean that you are rested and in shape for a good and intense workout.</target>
+        <target state="translated">Эффективность тренировки варьируются от +20 до -20, при этом положительные значения означают, что вы отдохнули и в форме для хорошей и интенсивной тренировки.</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/performance_condition.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2e98a2fddb38609e4c6f108fcb30d55ba587011c" resname="Proportion of successive R-R intervals that differ by more than %s ms">
+      <trans-unit id="2e98a2fddb38609e4c6f108fcb30d55ba587011c" resname="Proportion of successive R-R intervals that differ by more than %s ms" approved="yes">
         <source>Proportion of successive R-R intervals that differ by more than %s ms</source>
-        <target>Proportion of successive R-R intervals that differ by more than %s ms</target>
+        <target state="translated">Доля последовательных интервалов R-R, которые отличаются более чем на %s мс</target>
         <jms:reference-file line="36">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
         <jms:reference-file line="40">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="224108c89ee5b79d4b7db823a670b2b63bedf759" resname="RPE scale">
+      <trans-unit id="224108c89ee5b79d4b7db823a670b2b63bedf759" resname="RPE scale" approved="yes">
         <source>RPE scale</source>
-        <target>RPE scale</target>
+        <target state="translated">Шкала RPE</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ec11340b6224b308b305bae67b27ee9ae9f058f7" resname="Rate of Perceived Exertion">
+      <trans-unit id="ec11340b6224b308b305bae67b27ee9ae9f058f7" resname="Rate of Perceived Exertion" approved="yes">
         <source>Rate of Perceived Exertion</source>
-        <target>Rate of Perceived Exertion</target>
+        <target state="translated">Норма приложенного усилия</target>
         <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5bc8a13031190e948b9951fbf35c07c088394a38" resname="Rated Perceived Exertion (RPE) is a quantitive measure for the physical exertion of an activity. this rating is frequently used in studies and is measured by the Borg rating or RPE scale. The range of 6-20 follows the heart rate of a healthy young adult (by multiplying with 10).">
