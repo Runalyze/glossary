@@ -183,7 +183,7 @@ class DefaultController extends Controller
      */
     public function groundcontactAction()
     {
-        return $this->render('GlossaryBundle:topics:groundcontact.html.twig');
+        return $this->renderCorrectView('GlossaryBundle:topics:groundcontact.html.twig', $request);
     }
 
     /**
@@ -191,7 +191,7 @@ class DefaultController extends Controller
      */
     public function groundcontactTimeBalanceAction()
     {
-        return $this->render('GlossaryBundle:topics:groundcontact_balance.html.twig');
+        return $this->renderCorrectView('GlossaryBundle:topics:groundcontact_balance.html.twig', $request);
     }
 
     /**
@@ -199,7 +199,7 @@ class DefaultController extends Controller
      */
     public function verticalRatioAction()
     {
-        return $this->render('GlossaryBundle:topics:vertical_ratio.html.twig');
+        return $this->renderCorrectView('GlossaryBundle:topics:vertical_ratio.html.twig', $request);
     }
 
     /**
@@ -207,7 +207,7 @@ class DefaultController extends Controller
      */
     public function verticalOscillationAction()
     {
-        return $this->render('GlossaryBundle:topics:vertical_oscillation.html.twig');
+        return $this->renderCorrectView('GlossaryBundle:topics:vertical_oscillation.html.twig', $request);
     }
 
     /**
@@ -215,7 +215,7 @@ class DefaultController extends Controller
      */
     public function strideLengthAction()
     {
-        return $this->render('GlossaryBundle:topics:stride_length.html.twig');
+        return $this->renderCorrectView('GlossaryBundle:topics:stride_length.html.twig', $request);
     }
 
     /**
@@ -223,6 +223,6 @@ class DefaultController extends Controller
      */
     public function cadenceAction()
     {
-        return $this->render('GlossaryBundle:topics:cadence.html.twig');
+        return $this->renderCorrectView('GlossaryBundle:topics:cadence.html.twig', $request);
     }
 }
