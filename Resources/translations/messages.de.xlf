@@ -493,7 +493,7 @@
       </trans-unit>
       <trans-unit id="7bfc059ecd59974387cb6656bea731291074117f" resname="Training effect" approved="yes">
         <source>Training effect</source>
-        <target state="translated">Training Effekt</target>
+        <target state="translated">Trainingseffekt</target>
         <jms:reference-file line="28">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
