@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2017-07-08T15:59:24Z" source-language="en" target-language="et" datatype="plaintext" original="not.available">
     <header>
@@ -6,158 +6,158 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="b0e92863fd6a05e45024aedca637f84d834aac4c" resname="%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.">
+      <trans-unit id="b0e92863fd6a05e45024aedca637f84d834aac4c" resname="%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events." approved="no">
         <source>%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.</source>
-        <target>%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.</target>
+        <target state="translated">%VO2max% on maksimaalse hapnikutarbimise teaduslik mõõtühik, mis on tihedalt seotud isiku maksimaalse jooksuvõimekusega. Sellegipoolest ei pruugi kaks sama %VO2max% väärtusega sportlast olla võrdse võimekusega, kuna nende efektiivsus võib olla erinev. Täpse %VO2max% väärtuse (mida saab mõõta laboris) asemel pakub rohkem huvi %VO2max% ja jooksu efektiivsuse kombinatsioon. Sellest tuletatud tõelist %VO2max% saab kasutada tulevaste jooksude tulemuse ennustamiseks.</target>
         <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/vo2max.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6fbd4e792657cb7ee4267eb6e7fda023c1a01545" resname="Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended.">
+      <trans-unit id="6fbd4e792657cb7ee4267eb6e7fda023c1a01545" resname="Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended." approved="no">
         <source>Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended.</source>
-        <target>Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended.</target>
+        <target state="translated">ATL absoluutväärtusi on keeruline tõlgendada, kuna eelistatud väärtused erinevad sportlaste lõikes vastavalt nende hetketasemele. Absoluutväärtuste näitamise asemel kasutab Runalyze kõigi aegade maksimaalset ATL väärtust, näitamaks praegust ATL'i protsendina. Sellisel viisil on ATL väärtused alati suhtes sportlase maksimaalse väärtusega. Siiski, isegi kui sportlane juba ületreeningu tasemel olnud on, ei ole ATL 100% väärtuse taassaavutamine soovituslik.</target>
         <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="53c7483dac7565be1b8b8e2e81cef044c6d03a59" resname="Actual Training Load">
+      <trans-unit id="53c7483dac7565be1b8b8e2e81cef044c6d03a59" resname="Actual Training Load" approved="no">
         <source>Actual Training Load</source>
-        <target>Actual Training Load</target>
+        <target state="translated">Reaalne treeningkoormus</target>
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="99244cf9be797f20de3395e653a4c992f9665c01" resname="Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.">
+      <trans-unit id="99244cf9be797f20de3395e653a4c992f9665c01" resname="Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default." approved="no">
         <source>Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.</source>
-        <target>Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.</target>
+        <target state="translated">Reaalne treeningkoormus väljendab sinu praegust väsimuse taset, olles sinu 7-päevase (vaikimisi valitud väärtus) perioodi treeningtaseme (nt %trimp%) eksponentsiaalse keskmistamise abil arvutatud keskmine.</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2935762a5ed0e4456dc04618a7df1a75d718ff6f" resname="As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given.">
+      <trans-unit id="2935762a5ed0e4456dc04618a7df1a75d718ff6f" resname="As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given." approved="no">
         <source>As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given.</source>
-        <target>As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given.</target>
+        <target state="translated">Kuna absoluutsed südame löögisageduse väärtused võivad sõltuvalt maksimaalsest suhtestuda erinevate intensiivsustega, põhinevad kõik südame löögisagedust puudutavad arvutused suhtelistel südame löögisageduse väärtustel ning eeldavad seetõttu sobiva maksimaalse südame löögisageduse sisestamist.</target>
         <jms:reference-file line="13">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7af35388c830ec509f8d75e415145861761bb092" resname="As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor.">
+      <trans-unit id="7af35388c830ec509f8d75e415145861761bb092" resname="As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor." approved="no">
         <source>As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor.</source>
-        <target>As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor.</target>
+        <target state="translated">Kuna igaühe südame löögisagedus võib käituda erinevalt, kasutab Runalyze täiendavat individuaalset parandusfaktorit, mis arvutatakse automaatselt isiku parima võistluse ja selle südame löögisageduse põhjal. Sportlane saab selle asemel ka käsitsi sisestada parandusfaktori.</target>
         <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/vo2max.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ba378d75807a73754f29df0dcfeb416c5bdb2da8" resname="By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.">
+      <trans-unit id="ba378d75807a73754f29df0dcfeb416c5bdb2da8" resname="By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete." approved="no">
         <source>By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.</source>
-        <target>By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.</target>
+        <target state="translated">Vaikimisi põhinevad need arvutused viimase kuue kuu treeningutel, kusjuures nädala jooksul läbitud kilomeetrid moodustavad 2/3 ja pikamaajooksude kilomeetrid 1/3 "maratonivormist". Neid parameetreid saab iga sportlane individuaalselt muuta.</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/marathon_shape.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="55a89527100d7affacb785a535913eceec75eda6" resname="Caution">
+      <trans-unit id="55a89527100d7affacb785a535913eceec75eda6" resname="Caution" approved="no">
         <source>Caution</source>
-        <target>Caution</target>
+        <target state="translated">Ettevaatust</target>
         <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6dc0f2814c3ef39ad1d1778662a1b7e4463ee1e5" resname="Chronic Training Load">
+      <trans-unit id="6dc0f2814c3ef39ad1d1778662a1b7e4463ee1e5" resname="Chronic Training Load" approved="no">
         <source>Chronic Training Load</source>
-        <target>Chronic Training Load</target>
+        <target state="translated">Pidev treeningkoormus</target>
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/ctl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ade055974a1a9eeda24b67ac6c97024df419257d" resname="Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default.">
+      <trans-unit id="ade055974a1a9eeda24b67ac6c97024df419257d" resname="Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default." approved="no">
         <source>Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default.</source>
-        <target>Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default.</target>
+        <target state="translated">Pidev treeningkoormus väljendab sinu praegust treenituse taset, olles sinu 42 päeva (vaikimisi valitud väärtus) treeningkoormuse (nt %trimp%) eksponentsiaalsel keskmistamisel saadud keskmine.</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/ctl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="58d17582a05d81dbc970a2fb5dde4c86c385cf6c" resname="Danger">
+      <trans-unit id="58d17582a05d81dbc970a2fb5dde4c86c385cf6c" resname="Danger" approved="no">
         <source>Danger</source>
-        <target>Danger</target>
+        <target state="translated">Ohtlik</target>
         <jms:reference-file line="33">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6e05d28b1b5a19d5e30bcdc9bb4bd043bb901595" resname="Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance.">
+      <trans-unit id="6e05d28b1b5a19d5e30bcdc9bb4bd043bb901595" resname="Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance." approved="no">
         <source>Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance.</source>
-        <target>Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance.</target>
+        <target state="translated">Ei paranda kardiorespiratoorset treenituse taset. Sobib taastumiseks ja vastupidavuse treenimiseks.</target>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5d31af55249f7e47ead11641dc57fa5cf4ba6da8" resname="Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.">
+      <trans-unit id="5d31af55249f7e47ead11641dc57fa5cf4ba6da8" resname="Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards." approved="no">
         <source>Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.</source>
-        <target>Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.</target>
+        <target state="translated">Parandab kardiorespiratooset vormi ainult juhul kui peale seda vajalikus ulatuses taastutakse.</target>
         <jms:reference-file line="41">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0df9824336c43480212d28e69a6e040729284513" resname="Easy TRIMP">
+      <trans-unit id="0df9824336c43480212d28e69a6e040729284513" resname="Easy TRIMP" approved="no">
         <source>Easy TRIMP</source>
-        <target>Easy TRIMP</target>
+        <target state="translated">Kerge TRIMP</target>
         <jms:reference-file line="24">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
         <jms:reference-file line="20">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f5b714cf9c01c1409607b3b011a56706a8e8a162" resname="Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress.">
+      <trans-unit id="f5b714cf9c01c1409607b3b011a56706a8e8a162" resname="Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress." approved="no">
         <source>Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress.</source>
-        <target>Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress.</target>
+        <target state="translated">Kerge TRIMP on järgmiseks päevaks maksimaalne lubatud TRIMP, mis hoiab TSB väärtusel 0 - st hoiab treeningstressi tasakaalus.</target>
         <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="771bde487f47893e5588724872fd1fbf676c3ef7" resname="Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person.">
+      <trans-unit id="771bde487f47893e5588724872fd1fbf676c3ef7" resname="Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person." approved="no">
         <source>Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person.</source>
-        <target>Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person.</target>
+        <target state="translated">Iga sportlane peab testima oma maksimaalset südame löögisagedust, kuna see on väga individuaalne ja üldlevinud reeglid võivad konkreetse inimese osas olla väga ebaõiged.</target>
         <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c32ed5eccf1923cb5513356a0692775c0f820fb4" resname="Extreme caution">
+      <trans-unit id="c32ed5eccf1923cb5513356a0692775c0f820fb4" resname="Extreme caution" approved="no">
         <source>Extreme caution</source>
-        <target>Extreme caution</target>
+        <target state="translated">Ülim ettevaatus vajalik</target>
         <jms:reference-file line="29">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c1e5fa39df05e344cbc0712b2c7a19631263ab2c" resname="Extreme danger">
+      <trans-unit id="c1e5fa39df05e344cbc0712b2c7a19631263ab2c" resname="Extreme danger" approved="no">
         <source>Extreme danger</source>
-        <target>Extreme danger</target>
+        <target state="translated">Üliohtlik</target>
         <jms:reference-file line="37">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="33bd5087468ac086fac47e414f787a063190a0fa" resname="Extremely hard">
+      <trans-unit id="33bd5087468ac086fac47e414f787a063190a0fa" resname="Extremely hard" approved="no">
         <source>Extremely hard</source>
-        <target>Extremely hard</target>
+        <target state="translated">Väga raske</target>
         <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9054d111bd557977e52db876e71481ba1484b351" resname="Extremely light">
+      <trans-unit id="9054d111bd557977e52db876e71481ba1484b351" resname="Extremely light" approved="no">
         <source>Extremely light</source>
-        <target>Extremely light</target>
+        <target state="translated">Väga kerge</target>
         <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2701f8c51e1f9bb69344f1e6087b2764bea7f3f2" resname="Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.">
+      <trans-unit id="2701f8c51e1f9bb69344f1e6087b2764bea7f3f2" resname="Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps." approved="no">
         <source>Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.</source>
-        <target>Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.</target>
+        <target state="translated">Kestva mõju ja aktiivsuse tulemus võib olla väsimus. Tegevuse jätkamine võib tekitada kuumusekrampe.</target>
         <jms:reference-file line="26">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary">
+      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary" approved="no">
         <source>Glossary</source>
-        <target>Glossary</target>
+        <target state="translated">Sõnastik</target>
         <jms:reference-file line="8">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/_base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="20a89915f18c15e815e6422bf02ca6944f6dd8d8" resname="Hard">
+      <trans-unit id="20a89915f18c15e815e6422bf02ca6944f6dd8d8" resname="Hard" approved="no">
         <source>Hard</source>
-        <target>Hard</target>
+        <target state="translated">Raske</target>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5b290995d5b779c47e12e4fa3485f0aba6022126" resname="Heart rate variability">
+      <trans-unit id="5b290995d5b779c47e12e4fa3485f0aba6022126" resname="Heart rate variability" approved="no">
         <source>Heart rate variability</source>
-        <target>Heart rate variability</target>
+        <target state="translated">Südame löögisageduse varieerumine</target>
         <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6e8809b6a3a9cc2e302390c2ca9de384c8ea51e4" resname="Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status.">
+      <trans-unit id="6e8809b6a3a9cc2e302390c2ca9de384c8ea51e4" resname="Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status." approved="no">
         <source>Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status.</source>
-        <target>Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status.</target>
+        <target state="translated">Südame löögisageduse varieerumine (HRV) on füsioloogiline nähtus - südamelöökide vahele jääva aja varieerumine. Seda mõõdetakse löögist-löögini (tavaliselt nimetatakse R-R intervalliks) kestva vaheaja varieerumisena. On hästi teada, et HRV sõltub otseselt keha üksteisest sõltuvatest regulatoorsetest süsteemidest ja võib olla sportlase taastumisseisundi tugevaks näitajaks.</target>
         <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f66940af41f069fd172f4195f422fd35db1e978d" resname="Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity.">
+      <trans-unit id="f66940af41f069fd172f4195f422fd35db1e978d" resname="Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity." approved="no">
         <source>Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity.</source>
-        <target>Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity.</target>
+        <target state="translated">Tõenäolised on kuumakrambid ja kuumusest tingitud nõrkemine; jätkuva aktiivsuse puhul on võimalik kuumarabandus.</target>
         <jms:reference-file line="34">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e13630b294cad92a8eba4d69d8d34390a3a7456b" resname="Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke.">
+      <trans-unit id="e13630b294cad92a8eba4d69d8d34390a3a7456b" resname="Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke." approved="no">
         <source>Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke.</source>
-        <target>Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke.</target>
+        <target state="translated">Võimalikud on kuumakrambid ja kuumusest tingitud nõrkemine. Tegevuse jätkamine võib lõppeda kuumarabandusega.</target>
         <jms:reference-file line="30">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7cae891b77fd34ac239e3f82d36ed829ffe71619" resname="Heat index">
+      <trans-unit id="7cae891b77fd34ac239e3f82d36ed829ffe71619" resname="Heat index" approved="no">
         <source>Heat index</source>
-        <target>Heat index</target>
+        <target state="translated">Kuumuseindeks</target>
         <jms:reference-file line="32">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
         <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="23c1823dabdde065a6df1727baa92f1b170a78c4" resname="Heat index levels">
+      <trans-unit id="23c1823dabdde065a6df1727baa92f1b170a78c4" resname="Heat index levels" approved="no">
         <source>Heat index levels</source>
-        <target>Heat index levels</target>
+        <target state="translated">Kuumuseindeksi tase</target>
         <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7793e3b614c5b52a00ef3d26576ad3c41ab9081e" resname="Heat stroke is imminent.">
+      <trans-unit id="7793e3b614c5b52a00ef3d26576ad3c41ab9081e" resname="Heat stroke is imminent." approved="no">
         <source>Heat stroke is imminent.</source>
-        <target>Heat stroke is imminent.</target>
+        <target state="translated">Kuumarabandus ja päikesepiste on väga tõenäolised.</target>
         <jms:reference-file line="38">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7db6780c88a68051332ed2eb5f1b33c039e29e4d" resname="Highly improves cardiorespiratory fitness, but requires easier workouts to balance the training.">
