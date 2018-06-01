@@ -181,7 +181,7 @@ class DefaultController extends Controller
     /**
      * @Route("/groundcontact", name="glossary-groundcontact")
      */
-    public function groundcontactAction()
+    public function groundcontactAction(Request $request)
     {
         return $this->renderCorrectView('GlossaryBundle:topics:groundcontact.html.twig', $request);
     }
@@ -189,7 +189,7 @@ class DefaultController extends Controller
     /**
      * @Route("/groundcontact-time-balance", name="glossary-groundcontact-time-balance")
      */
-    public function groundcontactTimeBalanceAction()
+    public function groundcontactTimeBalanceAction(Request $request)
     {
         return $this->renderCorrectView('GlossaryBundle:topics:groundcontact_balance.html.twig', $request);
     }
@@ -197,7 +197,7 @@ class DefaultController extends Controller
     /**
      * @Route("/vertical-ratio", name="glossary-vertical-ratio")
      */
-    public function verticalRatioAction()
+    public function verticalRatioAction(Request $request)
     {
         return $this->renderCorrectView('GlossaryBundle:topics:vertical_ratio.html.twig', $request);
     }
@@ -205,7 +205,7 @@ class DefaultController extends Controller
     /**
      * @Route("/vertical-oscillation", name="glossary-vertical-oscillation")
      */
-    public function verticalOscillationAction()
+    public function verticalOscillationAction(Request $request)
     {
         return $this->renderCorrectView('GlossaryBundle:topics:vertical_oscillation.html.twig', $request);
     }
@@ -213,7 +213,7 @@ class DefaultController extends Controller
     /**
      * @Route("/stride-length", name="glossary-stride-length")
      */
-    public function strideLengthAction()
+    public function strideLengthAction(Request $request)
     {
         return $this->renderCorrectView('GlossaryBundle:topics:stride_length.html.twig', $request);
     }
@@ -221,7 +221,7 @@ class DefaultController extends Controller
     /**
      * @Route("/cadence", name="glossary-cadence")
      */
-    public function cadenceAction()
+    public function cadenceAction(Request $request)
     {
         return $this->renderCorrectView('GlossaryBundle:topics:cadence.html.twig', $request);
     }
@@ -229,7 +229,7 @@ class DefaultController extends Controller
     /**
      * @Route("/running-effectiveness", name="glossary-running-effectiveness")
      */
-    public function runningEffectivenessAction()
+    public function runningEffectivenessAction(Request $request)
     {
         return $this->renderCorrectView('GlossaryBundle:topics:running_effectiveness.html.twig', $request);
     }
@@ -237,7 +237,7 @@ class DefaultController extends Controller
     /**
      * @Route("/efficiency-index", name="glossary-efficiency-index")
      */
-    public function efficiencyIndexAction()
+    public function efficiencyIndexAction(Request $request)
     {
         return $this->renderCorrectView('GlossaryBundle:topics:efficiency_index.html.twig', $request);
     }
