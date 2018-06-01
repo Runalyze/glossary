@@ -1,0 +1,26 @@
+{% extends "GlossaryBundle::_base.html.twig" %}
+
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+{% import 'GlossaryBundle::_macro/see_also.html.twig' as see %}
+
+{% block headline %}
+    {% trans %}Efficiency Index{% endtrans %} (CTL)
+{% endblock %}
+
+{% block glossaryContent %}
+    <p class="text">
+        {% trans %}Efficiency Index (EF) that expresses the speed per watt of a runner. A higher value means a higher running effieciency.{% endtrans %}
+    </p>
+
+    <p class="c">
+        <em>EI = Speed [m/min] / Power [W]</em>
+    </p>
+
+    {{ see.seeAlsoHead() }}
+    {{ see.seeAlsoLink(path('glossary-running-effectiveness'), 'Running Effectiveness'|trans) }}
+    {{ see.seeAlsoFoot() }}
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceText("Vance, J.: Run with Power: The Complete Guide to Power Meters for Running, VeloPress, 2016") }}
+    {{ ref.referencesFoot() }}
+{% endblock %}

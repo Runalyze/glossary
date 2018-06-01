@@ -1,0 +1,40 @@
+{% extends "GlossaryBundle::_base.html.twig" %}
+
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+{% import 'GlossaryBundle::_macro/see_also.html.twig' as see %}
+
+{% block headline %}
+    {% trans %}Running Effectiveness{% endtrans %} (CTL)
+{% endblock %}
+
+{% block glossaryContent %}
+    <p class="text">
+        {% trans %}Running Effectiveness (RE) is a metric introduced by Dr. Andrew Coggan calculated as the ratio of speed to power. The greater its value, the more 'effective' the runner is at converting external power into speed. Novice or fatigue runners may have lower values since they do not travel as fast for a given power output or must generate more power to achieve the same speed.{% endtrans %}
+    </p>
+
+    <p class="c">
+        <em>RE [kg/N] = Speed [m/s] / Power [W/kg]</em>
+    </p>
+
+    <h2>{% trans %}Rating{% endtrans %}</h2>
+    <ul>
+        <li>
+            <strong>&hellip; &lt; RE &lt; 0.99</strong> &ndash; {% trans %}below average{% endtrans %}
+        </li>
+        <li>
+            <strong>0.99 &lt; RE &lt; 1.04</strong> &ndash; {% trans %}average{% endtrans %}
+        </li>
+        <li>
+            <strong>1.04 &lt; RE &lt; &hellip;</strong> &ndash; {% trans %}above average{% endtrans %}
+        </li>
+    </ul>
+
+    {{ see.seeAlsoHead() }}
+    {{ see.seeAlsoLink(path('glossary-efficiency-index'), 'Efficiency Index'|trans) }}
+    {{ see.seeAlsoFoot() }}
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceText("Palladino, S.: Understanding Running Effectiveness and Its Uses") }}
+    {{ ref.singleReferenceLink("Running with Power Revisited - Advanced Analysis with Steve Palladino | EP#93", "https://scientifictriathlon.com/tts93/") }}
+    {{ ref.referencesFoot() }}
+{% endblock %}

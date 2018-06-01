@@ -11,19 +11,19 @@ use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
-    private function renderCorrectView($view, $request) {
-
+    private function renderCorrectView($view, $request)
+    {
         if ($request->isXmlHttpRequest()) {
             return $this->render($view, [
                 'extends' => 'base_logged_in.twig',
                 'urlClass' => ''
             ]);
-        } else {
-            return $this->render($view, [
-                'extends' => 'base_not_logged_in.html.twig',
-                'urlClass' => 'class="external"'
-            ]);
         }
+
+        return $this->render($view, [
+            'extends' => 'base_not_logged_in.html.twig',
+            'urlClass' => 'class="external"'
+        ]);
     }
 
     /**
@@ -224,5 +224,21 @@ class DefaultController extends Controller
     public function cadenceAction()
     {
         return $this->renderCorrectView('GlossaryBundle:topics:cadence.html.twig', $request);
+    }
+
+    /**
+     * @Route("/cadence", name="glossary-running-effectiveness")
+     */
+    public function runningEffectivenessAction()
+    {
+        return $this->renderCorrectView('GlossaryBundle:topics:running_effectiveness.html.twig', $request);
+    }
+
+    /**
+     * @Route("/cadence", name="glossary-efficiency-index")
+     */
+    public function efficiencyIndexAction()
+    {
+        return $this->renderCorrectView('GlossaryBundle:topics:efficiency_index.html.twig', $request);
     }
 }
