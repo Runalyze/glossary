@@ -227,7 +227,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/cadence", name="glossary-running-effectiveness")
+     * @Route("/running-effectiveness", name="glossary-running-effectiveness")
      */
     public function runningEffectivenessAction()
     {
@@ -235,7 +235,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/cadence", name="glossary-efficiency-index")
+     * @Route("/efficiency-index", name="glossary-efficiency-index")
      */
     public function efficiencyIndexAction()
     {
