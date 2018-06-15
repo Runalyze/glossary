@@ -17,15 +17,23 @@
     </p>
 
     <h2>{% trans %}Rating{% endtrans %}</h2>
+
+    <p class="text">
+        {% trans %}On flat terrain with good running conditions.{% endtrans %}
+    </p>
+
     <ul>
         <li>
             <strong>&hellip; &lt; RE &lt; 0.99</strong> &ndash; {% trans %}below average{% endtrans %}
         </li>
         <li>
-            <strong>0.99 &lt; RE &lt; 1.04</strong> &ndash; {% trans %}average{% endtrans %}
+            <strong>0.99 &lt; RE &lt; 1.01</strong> &ndash; {% trans %}near average{% endtrans %}
         </li>
         <li>
-            <strong>1.04 &lt; RE &lt; &hellip;</strong> &ndash; {% trans %}above average{% endtrans %}
+            <strong>1.01 &lt; RE &lt; 1.05</strong> &ndash; {% trans %}good{% endtrans %}
+        </li>
+        <li>
+            <strong>1.05 &lt; RE &lt; &hellip;</strong> &ndash; {% trans %}likely the realm of elite world class runners{% endtrans %}
         </li>
     </ul>
 
