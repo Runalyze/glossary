@@ -1,0 +1,27 @@
+{% extends "GlossaryBundle::_base.html.twig" %}
+
+{% import 'GlossaryBundle::_macro/references.html.twig' as ref %}
+{% import 'GlossaryBundle::_macro/see_also.html.twig' as see %}
+
+{% block headline %}
+    {% trans %}Relative Running Economy{% endtrans %} (RE)
+{% endblock %}
+
+{% block glossaryContent %}
+    <p class="text">
+        {% trans %}Running Economy is how far and fast you can run with a given amount of energy. Maintaining a good economy is a critical part of running.{% endtrans %}
+        {% trans with {'%VO2max%': 'VO<sub>2</sub>max'} %}Relative Running Economy (RRE) is a simple alternative to e.g. effective %VO2max% and is based on how many heart beats are used for the distance covered.{% endtrans %}
+    </p>
+
+    <p class="c">
+        <em>RRE = 100000 * Distance [km] / ((Avg. Heart rate [bpm] - Resting heart rate [bpm]) * Duration [min])</em>
+    </p>
+
+    {{ see.seeAlsoHead() }}
+    {{ see.seeAlsoLink(path('glossary-vo2max'), 'VO<sub>2</sub>max') }}
+    {{ see.seeAlsoFoot() }}
+
+    {{ ref.referencesHead() }}
+    {{ ref.singleReferenceLink("http://fellrnr.com/wiki/Running_Economy", "Fellrnr.com - Running Economy") }}
+    {{ ref.referencesFoot() }}
+{% endblock %}

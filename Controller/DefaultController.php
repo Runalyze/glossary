@@ -241,4 +241,12 @@ class DefaultController extends Controller
     {
         return $this->renderCorrectView('GlossaryBundle:topics:efficiency_index.html.twig', $request);
     }
+
+    /**
+     * @Route("/relative-running-economy", name="glossary-relative-running-economy")
+     */
+    public function relativeRunningEconomyAction(Request $request)
+    {
+        return $this->renderCorrectView('GlossaryBundle:topics:relative_running_economy.html.twig', $request);
+    }
 }
