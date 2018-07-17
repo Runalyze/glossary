@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
   <file date="2017-07-08T15:59:25Z" source-language="en" target-language="it" datatype="plaintext" original="not.available">
     <header>
@@ -115,7 +115,7 @@
       </trans-unit>
       <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary">
         <source>Glossary</source>
-        <target>Glossary</target>
+        <target>Glossario</target>
         <jms:reference-file line="8">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/_base.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="20a89915f18c15e815e6422bf02ca6944f6dd8d8" resname="Hard">
