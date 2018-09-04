@@ -473,7 +473,7 @@
       </trans-unit>
       <trans-unit id="d084b29efa62fd82185d3cf7762e45fd6b00bc9c" resname="Training Effect Levels">
         <source>Training Effect Levels</source>
-        <target>Training Effect Levels</target>
+        <target>Trainingseffekt Levels</target>
         <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a568f118a0c84f19958a9e773edce6afc3d707e6" resname="Training Impulse" approved="yes">
