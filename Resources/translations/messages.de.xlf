@@ -246,9 +246,9 @@
         <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_strain.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0b6cda35817025c4e5ef70bd47b09e26b006fec2" resname="Natural logarithm of RMSSD" approved="yes">
+      <trans-unit id="0b6cda35817025c4e5ef70bd47b09e26b006fec2" resname="Natural logarithm of RMSSD" approved="no">
         <source>Natural logarithm of RMSSD</source>
-        <target state="translated">Natürlicher Logarithmus von RMSSD</target>
+        <target state="translated">Natürlicher Logarithmus des RMSSD</target>
         <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="7ed12cb7b7094edb08b930b8cc8f9f07b07959d9" resname="No effect" approved="yes">
