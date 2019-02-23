@@ -1,536 +1,410 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
-  <file date="2017-07-08T15:59:23Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
-    <header>
-      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
-      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
-    </header>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.1" version="1.1">
+  <file original="NoName" source-language="en" datatype="plaintext" target-language="de">
     <body>
-      <trans-unit id="b0e92863fd6a05e45024aedca637f84d834aac4c" resname="%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events." approved="no">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///b0e92863fd6a05e45024aedca637f84d834aac4c">
         <source>%VO2max% is a scientific metric for the maximal oxygen uptake that is highly correlated with one's maximal running performance. Still, two athletes with equal %VO2max% values do not need to perform equally as their efficiency may differ. Instead of the exact %VO2max% (which can be measured in a lab), the combination of %VO2max% and running efficiency is of intereset. The resulting Effective %VO2max% can be used as direct predictor for upcoming running events.</source>
-        <target state="translated">%VO2max% ist eine wissenschaftliche Größe für die maximale Sauerstoffaufnahme, die in hohem Maß mit der Laufperformance korreliert. Dennoch können zwei Athleten mit gleichen %VO2max%-Werten nicht zwingend die gleiche Leistung erbringen, da ihre Effizienz unterschiedlich sein kann. An Stelle des exakten %VO2max%-Wertes (der im Labor gemessen werden kann) ist die Kombination von %VO2max% and der Laufeffizenz interessanter. Der resultierende Effektive %VO2max% kann dann als Indikator für anstehende Wettkämpfe dienen.</target>
-        <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/vo2max.html.twig</jms:reference-file>
+        <target state="translated">%VO2max% ist eine wissenschaftliche Größe für die maximale Sauerstoffaufnahme, die in hohem Maß mit der Laufperformance korreliert. Dennoch müssen zwei Athleten mit gleichen %VO2max%-Werten nicht zwingend die gleiche Leistung erbringen, da ihre Effizienz unterschiedlich sein kann. An Stelle des exakten %VO2max% (der im Labor gemessen werden kann) ist die Kombination von %VO2max% und der Laufeffizenz interessanter. Der resultierende Effektive %VO2max% kann als Indikator für anstehende Wettkämpfe dienen.</target>
       </trans-unit>
-      <trans-unit id="6fbd4e792657cb7ee4267eb6e7fda023c1a01545" resname="Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended." approved="no">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///6fbd4e792657cb7ee4267eb6e7fda023c1a01545">
         <source>Absolute values of ATL are hard to interpret, as preferred values vary from athlete to athlete depending on their current level. Instead of showing absolute values, Runalyze uses the alltime maximum ATL to express current ATL as percentage. In this way, ATL values are always relative to the athlete's maximum. Still, if an athlete was overtraining once, reaching 100% ATL is not recommended.</source>
         <target state="translated">Absolute Werte von ATL sind schwer zu interpretieren, da die bevorzugten Werte von Athlet zu Athlet je nach aktuellem Niveau variieren. Anstatt absolute Werte anzuzeigen, verwendet Runalyze den dauerhaften maximalen ATL, um den aktuellen ATL in Prozent auszudrücken. Auf diese Weise sind die ATL-Werte immer relativ zum Maximum des Athleten. Wenn ein Athlete schon im Übertraining war ist das wiederholte Erreichen von 100% ATL nicht empfohlen.</target>
-        <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="53c7483dac7565be1b8b8e2e81cef044c6d03a59" resname="Actual Training Load" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///53c7483dac7565be1b8b8e2e81cef044c6d03a59">
         <source>Actual Training Load</source>
         <target state="translated">Aktuelle Trainigsbelastung</target>
-        <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="99244cf9be797f20de3395e653a4c992f9665c01" resname="Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///99244cf9be797f20de3395e653a4c992f9665c01">
         <source>Actual Training Load represents your current degree of fatigue, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 7 days by default.</source>
         <target state="translated">Die tatsächliche Trainingsbelastung stellt Ihren aktuellen Ermüdungsgrad dar und ist ein exponentiell gewichteter Durchschnitt Ihrer Trainingsbelastung (d.h. %trimp%) über einen Zeitraum von standardmäßig 7 Tagen.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/atl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2935762a5ed0e4456dc04618a7df1a75d718ff6f" resname="As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///2935762a5ed0e4456dc04618a7df1a75d718ff6f">
         <source>As absolute heart rates may relate to different intensities depending on the maximum, all heart rate related calculations are based on relative heart rates and thus require an appropriate maximum heart rate to be given.</source>
         <target state="translated">Da sich absolute Herzfrequenzen je nach Maximum auf unterschiedliche Intensitäten beziehen können, basieren alle herzfrequenzbezogenen Berechnungen auf relativen Herzfrequenzen und erfordern daher eine entsprechende maximale Herzfrequenz.</target>
-        <jms:reference-file line="13">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7af35388c830ec509f8d75e415145861761bb092" resname="As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///7af35388c830ec509f8d75e415145861761bb092">
         <source>As everybody’s heart rate may behave differently, Runalyze uses an additional individual correction factor which is calculated based on one's best race and its heart rate automatically. Alternatively, athletes can pick a manual correction factor.</source>
         <target state="translated">Da sich die Herzfrequenz eines jeden Athleten unterschiedlich verhält, nutzt Runalyze einen zusätzlichen individuellen Korrekturfaktor, der automatisch anhand des besten Wettkampfes und der dabei erreichten Herzfrequenz ermittelt wird. Alternativ können Athleten einen manuellen Korrekturfaktor festlegen.</target>
-        <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/vo2max.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ba378d75807a73754f29df0dcfeb416c5bdb2da8" resname="By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///ba378d75807a73754f29df0dcfeb416c5bdb2da8">
         <source>By default, these calculations are based on the training of the last six months, while the kilometres made a week count 2/3 and the long distance runs account for 1/3 of the 'Marathon shape'. These parameters can be changed individually by every athlete.</source>
         <target state="translated">Standardmäßig basieren diese Berechnungen auf dem Training der letzten sechs Monate, wobei die Wochenkilometer zu 2/3 und die langen Läufe zu 1/3 für die "Marathonform" zählen. Diese Parameter können individuell angepasst werden.</target>
-        <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/marathon_shape.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="55a89527100d7affacb785a535913eceec75eda6" resname="Caution" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///55a89527100d7affacb785a535913eceec75eda6">
         <source>Caution</source>
         <target state="translated">Vorsicht</target>
-        <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6dc0f2814c3ef39ad1d1778662a1b7e4463ee1e5" resname="Chronic Training Load">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///6dc0f2814c3ef39ad1d1778662a1b7e4463ee1e5">
         <source>Chronic Training Load</source>
-        <target>Chronic Training Load</target>
-        <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/ctl.html.twig</jms:reference-file>
+        <target state="translated">Chronic Training Load</target>
       </trans-unit>
-      <trans-unit id="ade055974a1a9eeda24b67ac6c97024df419257d" resname="Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///ade055974a1a9eeda24b67ac6c97024df419257d">
         <source>Chronic Training Load represents your current degree of fitness, being an exponentially weighted average of your training load (i.e. %trimp%) over a period of 42 days by default.</source>
         <target state="translated">Chronische Trainingsbelastung stellt Ihren aktuellen Fitnessgrad dar und ist ein exponentiell gewichteter Durchschnitt Ihrer Trainingsbelastung (d.h. %trimp%) über einen Zeitraum von standardmäßig 42 Tagen.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/ctl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="58d17582a05d81dbc970a2fb5dde4c86c385cf6c" resname="Danger" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///58d17582a05d81dbc970a2fb5dde4c86c385cf6c">
         <source>Danger</source>
-        <target state="translated">Warnung</target>
-        <jms:reference-file line="33">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
+        <target state="translated">Gefahr</target>
       </trans-unit>
-      <trans-unit id="6e05d28b1b5a19d5e30bcdc9bb4bd043bb901595" resname="Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///6e05d28b1b5a19d5e30bcdc9bb4bd043bb901595">
         <source>Does not improve cardiorespiratory fitness. This is suitable for recovery and developing endurance.</source>
         <target state="translated">Verbessert nicht die kardiorespiratorische Fitness. Dies ist für die Regeneration und die Entwicklung der Ausdauer geeignet.</target>
-        <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5d31af55249f7e47ead11641dc57fa5cf4ba6da8" resname="Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///5d31af55249f7e47ead11641dc57fa5cf4ba6da8">
         <source>Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.</source>
         <target state="translated">Erhöht die kardiorespiratorische Fitness nur, wenn danach eine ausreichende Regeneration erfolgt.</target>
-        <jms:reference-file line="41">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0df9824336c43480212d28e69a6e040729284513" resname="Easy TRIMP" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///0df9824336c43480212d28e69a6e040729284513">
         <source>Easy TRIMP</source>
-        <target state="translated">Entspannter TRIMP</target>
-        <jms:reference-file line="24">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
-        <jms:reference-file line="20">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
+        <target state="translated">Entspannter&amp;nbsp;TRIMP</target>
       </trans-unit>
-      <trans-unit id="f5b714cf9c01c1409607b3b011a56706a8e8a162" resname="Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///f5b714cf9c01c1409607b3b011a56706a8e8a162">
         <source>Easy TRIMP is the maximal allowed TRIMP for the following day that will keep TSB at 0, i.e. keeps a balanced training stress.</source>
         <target state="translated">Easy TRIMP ist der maximal erlaubte TRIMP für den nächsten Tag, der den TSB auf 0 hält, d.h. einen ausgeglichenen Trainingsstress hält.</target>
-        <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="771bde487f47893e5588724872fd1fbf676c3ef7" resname="Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///771bde487f47893e5588724872fd1fbf676c3ef7">
         <source>Every athlete has to test his maximal heart rate as it's highly individual and common rules of thumb may be far off for a single person.</source>
         <target state="translated">Jeder Athlet muss seine maximale Herzfrequenz selbst testen, da sie sehr individuell ist und typische Daumenregeln für einzelne Personen weit daneben liegen können.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c32ed5eccf1923cb5513356a0692775c0f820fb4" resname="Extreme caution" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///c32ed5eccf1923cb5513356a0692775c0f820fb4">
         <source>Extreme caution</source>
         <target state="translated">Erhöhte Vorsicht</target>
-        <jms:reference-file line="29">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c1e5fa39df05e344cbc0712b2c7a19631263ab2c" resname="Extreme danger" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///c1e5fa39df05e344cbc0712b2c7a19631263ab2c">
         <source>Extreme danger</source>
         <target state="translated">Erhöhte Gefahr</target>
-        <jms:reference-file line="37">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="33bd5087468ac086fac47e414f787a063190a0fa" resname="Extremely hard" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///33bd5087468ac086fac47e414f787a063190a0fa">
         <source>Extremely hard</source>
         <target state="translated">extrem anstrengend</target>
-        <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9054d111bd557977e52db876e71481ba1484b351" resname="Extremely light" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///9054d111bd557977e52db876e71481ba1484b351">
         <source>Extremely light</source>
         <target state="translated">Extrem leicht</target>
-        <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2701f8c51e1f9bb69344f1e6087b2764bea7f3f2" resname="Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///2701f8c51e1f9bb69344f1e6087b2764bea7f3f2">
         <source>Fatigue is possible with prolonged exposure and activity. Continuing activity could result in heat cramps.</source>
-        <target state="translated">Ermüdung ist bei längerer Belastung und Aktivität möglich. Anhaltende Aktivität kann zu Hitzekrämpfen führen.</target>
-        <jms:reference-file line="26">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
+        <target state="translated">Bei längeren Zeiträumen und körperlicher Aktivität kann es zu Erschöpfungserscheinungen kommen.</target>
       </trans-unit>
-      <trans-unit id="7427cf697be16a4ec1d916910128a59d920125e7" resname="Glossary" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///7427cf697be16a4ec1d916910128a59d920125e7">
         <source>Glossary</source>
         <target state="translated">Glossar</target>
-        <jms:reference-file line="8">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/_base.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="20a89915f18c15e815e6422bf02ca6944f6dd8d8" resname="Hard" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///20a89915f18c15e815e6422bf02ca6944f6dd8d8">
         <source>Hard</source>
-        <target state="translated">Hart</target>
-        <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
+        <target state="translated">anstrengend</target>
       </trans-unit>
-      <trans-unit id="5b290995d5b779c47e12e4fa3485f0aba6022126" resname="Heart rate variability" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///5b290995d5b779c47e12e4fa3485f0aba6022126">
         <source>Heart rate variability</source>
         <target state="translated">Herzfrequenzvariabilität</target>
-        <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6e8809b6a3a9cc2e302390c2ca9de384c8ea51e4" resname="Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///6e8809b6a3a9cc2e302390c2ca9de384c8ea51e4">
         <source>Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats and is measured by the variation in the beat-to-beat interval (commonly stated as R-R interval). It is well known that HRV is directly related to the body's interdependent regulatory systems and can be a powerful measure for an athlete's recovery status.</source>
         <target state="translated">Die Herzfrequenzvariabilität (HRV) ist das physiologische Phänomen der Variation des Zeitintervalls zwischen den Herzschlägen und wird durch die Variation des Beat-to-Beat-Intervalls (allgemein als R-R-Intervall bezeichnet) gemessen. Es ist bekannt, dass die HRV in direktem Zusammenhang mit den ineinandergreifenden Regulationssystemen des Körpers steht und ein starkes Maß für den Erholungsstatus eines Sportlers sein kann.</target>
-        <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f66940af41f069fd172f4195f422fd35db1e978d" resname="Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///f66940af41f069fd172f4195f422fd35db1e978d">
         <source>Heat cramps and heat exhaustion are likely; heat stroke is probable with continued activity.</source>
-        <target state="translated">Hitzekrämpfe und Erschöpfung sind wahrscheinlich; ein Hitzschlag ist bei anhaltender Aktivität wahrscheinlich.</target>
-        <jms:reference-file line="34">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
+        <target state="translated">Sonnenstich, Hitzekrampf und Hitzekollaps sind wahrscheinlich; Hitzschlag ist möglich.</target>
       </trans-unit>
-      <trans-unit id="e13630b294cad92a8eba4d69d8d34390a3a7456b" resname="Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///e13630b294cad92a8eba4d69d8d34390a3a7456b">
         <source>Heat cramps and heat exhaustion are possible. Continuing activity could result in heat stroke.</source>
-        <target state="translated">Hitzekrämpfe und Erschöpfung sind möglich. Anhaltende Aktivität kann zu einem Hitzschlag führen.</target>
-        <jms:reference-file line="30">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
+        <target state="translated">Es besteht die Möglichkeit von Hitzeschäden wie Sonnenstich, Hitzekrampf und Hitzekollaps.</target>
       </trans-unit>
-      <trans-unit id="7cae891b77fd34ac239e3f82d36ed829ffe71619" resname="Heat index" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///7cae891b77fd34ac239e3f82d36ed829ffe71619">
         <source>Heat index</source>
         <target state="translated">Hitzeindex</target>
-        <jms:reference-file line="32">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="23c1823dabdde065a6df1727baa92f1b170a78c4" resname="Heat index levels" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///23c1823dabdde065a6df1727baa92f1b170a78c4">
         <source>Heat index levels</source>
         <target state="translated">Hitzeindexlevel</target>
-        <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7793e3b614c5b52a00ef3d26576ad3c41ab9081e" resname="Heat stroke is imminent." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///7793e3b614c5b52a00ef3d26576ad3c41ab9081e">
         <source>Heat stroke is imminent.</source>
         <target state="translated">Hitzschlag und Sonnenstich sind sehr wahrscheinlich.</target>
-        <jms:reference-file line="38">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7db6780c88a68051332ed2eb5f1b33c039e29e4d" resname="Highly improves cardiorespiratory fitness, but requires easier workouts to balance the training." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///7db6780c88a68051332ed2eb5f1b33c039e29e4d">
         <source>Highly improves cardiorespiratory fitness, but requires easier workouts to balance the training.</source>
         <target state="translated">Verbessert die kardiorespiratorische Fitness, erfordert aber ein leichteres Training, um das Training auszugleichen.</target>
-        <jms:reference-file line="36">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ef80b6b5c560678a697a037ad7efcbde1215b362" resname="Highly improving training effect" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///ef80b6b5c560678a697a037ad7efcbde1215b362">
         <source>Highly improving training effect</source>
         <target state="translated">Stark verbessernder Trainingseffekt</target>
-        <jms:reference-file line="35">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="69e3e554b82e2707f3f6be67de5c380d1c73659d" resname="If an important race is ahead, TSB should be clearly positive. As levels of CTL and ATL differ from athlete to athlete, no concrete suggestions can be made." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///69e3e554b82e2707f3f6be67de5c380d1c73659d">
         <source>If an important race is ahead, TSB should be clearly positive. As levels of CTL and ATL differ from athlete to athlete, no concrete suggestions can be made.</source>
         <target state="translated">Wenn ein wichtiges Rennen bevorsteht, sollte die TSB deutlich positiv sein. Da sich die CTL- und ATL-Werte von Athlet zu Athlet unterscheiden, können keine konkreten Vorschläge gemacht werden.</target>
-        <jms:reference-file line="13">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8fcf53da417f208554558ada9e967bbe4367cb7c" resname="Improves cardiorespiratory fitness." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///8fcf53da417f208554558ada9e967bbe4367cb7c">
         <source>Improves cardiorespiratory fitness.</source>
         <target state="translated">Verbessert die kardiorespiratorische Fitness.</target>
-        <jms:reference-file line="31">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cfac66e74791ff5bee46bcbcd4acaacfac8796aa" resname="Improving training effect" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///cfac66e74791ff5bee46bcbcd4acaacfac8796aa">
         <source>Improving training effect</source>
         <target state="translated">Verbessernder Trainingseffekt</target>
-        <jms:reference-file line="30">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e92a56ee9c12bd063e624cee862a2fc8bfb5d9e7" resname="In Runalyze, windchill is a metric for the apparent temperature that takes the Wind Chill effect into account." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///e92a56ee9c12bd063e624cee862a2fc8bfb5d9e7">
         <source>In Runalyze, windchill is a metric for the apparent temperature that takes the Wind Chill effect into account.</source>
         <target state="translated">In Runalyze ist Windchill eine Metrik für die scheinbare Temperatur, die den Windchill-Effekt berücksichtigt.</target>
-        <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/windchill.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a36ef8aba22905e2d2efbf1ac1d6230d5761859d" resname="Light" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///a36ef8aba22905e2d2efbf1ac1d6230d5761859d">
         <source>Light</source>
         <target state="translated">leicht</target>
-        <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b987ea2468ff96549181c5f0f90c2647880d2962" resname="Maintaining training effect" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///b987ea2468ff96549181c5f0f90c2647880d2962">
         <source>Maintaining training effect</source>
         <target state="translated">Aufrechterhaltung des Trainingzustandes</target>
-        <jms:reference-file line="26">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0b3dec76e3c49497244a4f19e798eb7f864662ae" resname="Maintains cardiorespiratory fitness and builds foundation for more demanding workours in future." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///0b3dec76e3c49497244a4f19e798eb7f864662ae">
         <source>Maintains cardiorespiratory fitness and builds foundation for more demanding workours in future.</source>
         <target state="translated">Erhält die kardiorespiratorische Fitness und bildet die Grundlage für ein anspruchsvolleres Training in der Zukunft.</target>
-        <jms:reference-file line="27">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5d108a7340e2b565164cfac5ff2251b9e7bca312" resname="Marathon shape" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///5d108a7340e2b565164cfac5ff2251b9e7bca312">
         <source>Marathon shape</source>
         <target state="translated">Marathonform</target>
-        <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/marathon_shape.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="20dc29a18aa20007121c420d752c8f601ddbc8f4" resname="Maximal exertion" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///20dc29a18aa20007121c420d752c8f601ddbc8f4">
         <source>Maximal exertion</source>
-        <target state="translated">Maximale Belastung</target>
-        <jms:reference-file line="28">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
+        <target state="translated">Maximale Anstrengung</target>
       </trans-unit>
-      <trans-unit id="c5b82f351658939ccc3906a5ce1bc61281ee12e5" resname="Maximum heart rate" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///c5b82f351658939ccc3906a5ce1bc61281ee12e5">
         <source>Maximum heart rate</source>
         <target state="translated">Maximale Herzfrequenz</target>
-        <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
-        <jms:reference-file line="14">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/trimp.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7468081f51301f3d3320720a74ee85a8a8b83384" resname="Measuring resting heart rate each day as part of a morning ritual is recommended for athletes. Increases in resting heart rate can indicate stress and overtraining." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///7468081f51301f3d3320720a74ee85a8a8b83384">
         <source>Measuring resting heart rate each day as part of a morning ritual is recommended for athletes. Increases in resting heart rate can indicate stress and overtraining.</source>
         <target state="translated">Athleten wird empfohlen, jeden Morgen den Ruhepuls zu messen. Erhöhte Werte können auf Stress oder Übertraining hindeuten.</target>
-        <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/resting_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="692fc14c0d50b5abdf9beac483647d95341c98b5" resname="Metrics for HRV" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///692fc14c0d50b5abdf9beac483647d95341c98b5">
         <source>Metrics for HRV</source>
         <target state="translated">Metriken für HRV</target>
-        <jms:reference-file line="14">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1cfb68095daa6af4c493a5166fd84ecbd342c8ec" resname="Minor training effect" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///1cfb68095daa6af4c493a5166fd84ecbd342c8ec">
         <source>Minor training effect</source>
         <target state="translated">Geringer Trainingseffekt</target>
-        <jms:reference-file line="22">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e5cee8b95402c56c6e8bf68b1e8392f321109906" resname="Monotony" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///e5cee8b95402c56c6e8bf68b1e8392f321109906">
         <source>Monotony</source>
         <target state="translated">Monotonie</target>
-        <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
-        <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
-        <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_strain.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0b6cda35817025c4e5ef70bd47b09e26b006fec2" resname="Natural logarithm of RMSSD" approved="no">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///0b6cda35817025c4e5ef70bd47b09e26b006fec2">
         <source>Natural logarithm of RMSSD</source>
         <target state="translated">Natürlicher Logarithmus des RMSSD</target>
-        <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7ed12cb7b7094edb08b930b8cc8f9f07b07959d9" resname="No effect" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///7ed12cb7b7094edb08b930b8cc8f9f07b07959d9">
         <source>No effect</source>
         <target state="translated">Keine Auswirkungen</target>
-        <jms:reference-file line="21">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6fccbcc780d1a1ae131019607d0d4071d2eb784f" resname="No exertion at all" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///6fccbcc780d1a1ae131019607d0d4071d2eb784f">
         <source>No exertion at all</source>
         <target state="translated">Überhaupt keine Anstrengung</target>
-        <jms:reference-file line="14">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="91a8efd280c0c6d748c999d62d8593c161cd35e9" resname="No training effect" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///91a8efd280c0c6d748c999d62d8593c161cd35e9">
         <source>No training effect</source>
         <target state="translated">Kein Trainingeffekt</target>
-        <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b5cd39eda8c2539f5722a73d7ca9f43c73f59395" resname="Notice: This calculation is based on the sum of the *all day* TRIMP value. It is based on the overall strain made a day, no matter which kind of activity has been done." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///b5cd39eda8c2539f5722a73d7ca9f43c73f59395">
         <source>Notice: This calculation is based on the sum of the *all day* TRIMP value. It is based on the overall strain made a day, no matter which kind of activity has been done.</source>
         <target state="translated">Hinweis: Diese Berechnung basiert auf der Summe aller TRIMP-Werte eines Tages. Sie berücksichtigt daher nur die gesamte Trainingsbelastung eines Tages, egal welche Sportarten absolviert wurden.</target>
-        <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="56ccfca015890c7861ef03ff31fad3a8f1c7a4d0" resname="Overtraining" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///56ccfca015890c7861ef03ff31fad3a8f1c7a4d0">
         <source>Overtraining</source>
         <target state="translated">Übertraining</target>
-        <jms:reference-file line="40">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0efc2e6be4c23b9a513d7ce0dcff8ed80e8912e7" resname="Overview" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///0efc2e6be4c23b9a513d7ce0dcff8ed80e8912e7">
         <source>Overview</source>
         <target state="translated">Übersicht</target>
-        <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="316047c6d1d3c49069bbbd100fa00f784ba5e6fc" resname="Performance condition" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///316047c6d1d3c49069bbbd100fa00f784ba5e6fc">
         <source>Performance condition</source>
-        <target state="translated">Performance condition</target>
-        <jms:reference-file line="29">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/performance_condition.html.twig</jms:reference-file>
+        <target state="translated">Performance Condition</target>
       </trans-unit>
-      <trans-unit id="bcab1c9a80024aa03d06ca52dc1bbfd1c84e83e1" resname="Performance condition is a metric provided by Garmin that analyzes pace, heart rate and heart rate variability within the first 20 minutes of an activity to make a real-time assessment of your ability to perform compared to your current fitness level." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///bcab1c9a80024aa03d06ca52dc1bbfd1c84e83e1">
         <source>Performance condition is a metric provided by Garmin that analyzes pace, heart rate and heart rate variability within the first 20 minutes of an activity to make a real-time assessment of your ability to perform compared to your current fitness level.</source>
         <target state="translated">Die Performance Condition ist eine von Garmin bereitgestellte Kennzahl, die die Geschwindigkeit, die Herzfrequenz und die Herzfrequenzvariabilität innerhalb der ersten 20 Minuten einer Aktivität analysiert, um eine Echtzeitbewertung Ihrer Leistungsfähigkeit im Vergleich zu Ihrem aktuellen Fitnessniveau vorzunehmen.</target>
-        <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/performance_condition.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2e177effbb3d01f95fb0798c17f613fa162891ff" resname="Performance condition values range from +20 to -20, whereby positive values mean that you are rested and in shape for a good and intense workout." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///2e177effbb3d01f95fb0798c17f613fa162891ff">
         <source>Performance condition values range from +20 to -20, whereby positive values mean that you are rested and in shape for a good and intense workout.</source>
         <target state="translated">Die Werte der Performance Condition reichen von +20 bis -20, wobei positive Werte bedeuten, dass Sie ausgeruht und fit für ein gutes und intensives Training sind.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/performance_condition.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2e98a2fddb38609e4c6f108fcb30d55ba587011c" resname="Proportion of successive R-R intervals that differ by more than %s ms" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///2e98a2fddb38609e4c6f108fcb30d55ba587011c">
         <source>Proportion of successive R-R intervals that differ by more than %s ms</source>
         <target state="translated">Anteil der aufeinanderfolgenden R-R-Intervalle, die sich um mehr als %s ms unterscheiden</target>
-        <jms:reference-file line="36">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
-        <jms:reference-file line="40">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="224108c89ee5b79d4b7db823a670b2b63bedf759" resname="RPE scale" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///224108c89ee5b79d4b7db823a670b2b63bedf759">
         <source>RPE scale</source>
         <target state="translated">RPE-Skala</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ec11340b6224b308b305bae67b27ee9ae9f058f7" resname="Rate of Perceived Exertion" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///ec11340b6224b308b305bae67b27ee9ae9f058f7">
         <source>Rate of Perceived Exertion</source>
         <target state="translated">Gefühlte Belastung</target>
-        <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5bc8a13031190e948b9951fbf35c07c088394a38" resname="Rated Perceived Exertion (RPE) is a quantitive measure for the physical exertion of an activity. this rating is frequently used in studies and is measured by the Borg rating or RPE scale. The range of 6-20 follows the heart rate of a healthy young adult (by multiplying with 10)." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///5bc8a13031190e948b9951fbf35c07c088394a38">
         <source>Rated Perceived Exertion (RPE) is a quantitive measure for the physical exertion of an activity. this rating is frequently used in studies and is measured by the Borg rating or RPE scale. The range of 6-20 follows the heart rate of a healthy young adult (by multiplying with 10).</source>
         <target state="translated">Rated Perceived Exertion (RPE) ist ein quantitatives Maß für die körperliche Anstrengung einer Aktivität. Dieses Rating wird häufig in Studien verwendet und wird anhand des Borg-Ratings oder der RPE-Skala gemessen. Der Bereich von 6-20 folgt der Herzfrequenz eines gesunden jungen Erwachsenen (durch Multiplikation mit 10).</target>
-        <jms:reference-file line="9">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5d20d0fee3b91643dd8d272ac33d01ca95179d82" resname="References" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///5d20d0fee3b91643dd8d272ac33d01ca95179d82">
         <source>References</source>
         <target state="translated">Referenzen</target>
-        <jms:reference-file line="2">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/_macro/references.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="348928d6f5bed1d5e6ca2b20cf5d4e27d369ec96" resname="Resting heart rate" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///348928d6f5bed1d5e6ca2b20cf5d4e27d369ec96">
         <source>Resting heart rate</source>
         <target state="translated">Ruheherzfrequenz</target>
-        <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/resting_heart_rate.html.twig</jms:reference-file>
-        <jms:reference-file line="13">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/trimp.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b56c7448b104d84611478c02d45067b11303e481" resname="Root mean square of successive differences" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///b56c7448b104d84611478c02d45067b11303e481">
         <source>Root mean square of successive differences</source>
         <target state="translated">Wurzelmittelwert der aufeinanderfolgenden Differenzen</target>
-        <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8906d98b693f5e22543aa62f3064ff2d8d8b4fa7" resname="Runalyze estimates the Effective %VO2max% for every run with heart rate data based on the relation of heart rate and pace. Optionally, elevation can be taken into account as well. The average of these values will be used as the athlete's current shape." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///8906d98b693f5e22543aa62f3064ff2d8d8b4fa7">
         <source>Runalyze estimates the Effective %VO2max% for every run with heart rate data based on the relation of heart rate and pace. Optionally, elevation can be taken into account as well. The average of these values will be used as the athlete's current shape.</source>
         <target state="translated">Runalyze schätzt die effektive %VO2max% für jeden Lauf mit Herzfrequenzdaten basierend auf dem Verhältnis von Herzfrequenz und Geschwindigkeit. Optional kann auch die Höhe berücksichtigt werden. Der Mittelwert dieser Werte wird als aktuelle Form des Athleten verwendet.</target>
-        <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/vo2max.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9ac2ddba0b2bfb16986f93be07a92a305a3bb856" resname="Runalyze reads training effect values only when importing *.fit-files (provided that the file contains a training effect value)." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///9ac2ddba0b2bfb16986f93be07a92a305a3bb856">
         <source>Runalyze reads training effect values only when importing *.fit-files (provided that the file contains a training effect value).</source>
         <target state="translated">Runalyze liest Trainingseffektwerte nur beim Import von *.fit-Dateien (sofern die Datei einen Trainingseffektwert enthält).</target>
-        <jms:reference-file line="13">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5cd6e75b853cd44ebce2ab8df80bee363623876c" resname="Runalyze tries to estimate the athlete's limit by current ATL and gives a coloured (green/orange/red) feedback." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///5cd6e75b853cd44ebce2ab8df80bee363623876c">
         <source>Runalyze tries to estimate the athlete's limit by current ATL and gives a coloured (green/orange/red) feedback.</source>
         <target state="translated">Runalyze versucht das Limit des Athleten anhand der aktuellen ATL abzuschätzen und gibt ein farbiges (grün/orange/rot) Feedback.</target>
-        <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_strain.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="07807067838d899f69cef0d30b5900f69323de9b" resname="Runalyze will always use the activity's complete heart rate profile, if available, to correctly rate interval workouts." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///07807067838d899f69cef0d30b5900f69323de9b">
         <source>Runalyze will always use the activity's complete heart rate profile, if available, to correctly rate interval workouts.</source>
         <target state="translated">Runalyze verwendet immer das komplette Herzfrequenzprofil der Aktivität, falls verfügbar, um Intervalltrainings richtig zu bewerten.</target>
-        <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/trimp.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="09805e31688a4fa45f4c467ce8d93209801dc81f" resname="Runalyze will import performance condition from fit files if available." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///09805e31688a4fa45f4c467ce8d93209801dc81f">
         <source>Runalyze will import performance condition from fit files if available.</source>
         <target state="translated">Runalyze importiert die Leistungsbedingung aus Fit-Dateien, falls vorhanden.</target>
-        <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/performance_condition.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f6186b4ccf43ad1283ca8acbfcd02c9f204a2116" resname="SWOLF is a metric of swimming efficiency and is calculated as sum of time (in seconds) and stroke count for a given distance (traditionally the pool length, i.e. 50m). Stroke count is used as an indicator of effort, but it's not always a good one." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///f6186b4ccf43ad1283ca8acbfcd02c9f204a2116">
         <source>SWOLF is a metric of swimming efficiency and is calculated as sum of time (in seconds) and stroke count for a given distance (traditionally the pool length, i.e. 50m). Stroke count is used as an indicator of effort, but it's not always a good one.</source>
         <target state="translated">SWOLF ist ein Maß für die Schwimmleistung und wird als Summe aus Zeit (in Sekunden) und Schlagzahl für eine bestimmte Strecke (traditionell die Beckenlänge, d.h. 50m) berechnet. Die Hubzahl wird als Indikator für die Anstrengung verwendet, aber sie ist nicht immer gut.</target>
-        <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/swolf.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2d8243a2c0e464492c9d563c4f92c56ae3421bcc" resname="See also" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///2d8243a2c0e464492c9d563c4f92c56ae3421bcc">
         <source>See also</source>
         <target state="translated">Siehe auch</target>
-        <jms:reference-file line="2">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/_macro/see_also.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="82951aa1014ec3ad0edd4f30e951c44ddc258921" resname="Similar to %atl%, Runalyze uses the alltime maximum CTL to express current CTL as percentage." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///82951aa1014ec3ad0edd4f30e951c44ddc258921">
         <source>Similar to %atl%, Runalyze uses the alltime maximum CTL to express current CTL as percentage.</source>
         <target state="translated">Ähnlich wie %atl% verwendet Runalyze die dauerhafte maximale CTL, um die aktuelle CTL in Prozent auszudrücken.</target>
-        <jms:reference-file line="18">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/ctl.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="38303a7c5ec03c87e232ac7aca72c6febb9f1916" resname="Similarly, SWOLF cycles is calculated as sum of time (in seconds) and stroke cycles (i.e. number of hand entries only on one side). Some people prefer SWOLF cycles as metric for finding one's most efficient swimming style." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///38303a7c5ec03c87e232ac7aca72c6febb9f1916">
         <source>Similarly, SWOLF cycles is calculated as sum of time (in seconds) and stroke cycles (i.e. number of hand entries only on one side). Some people prefer SWOLF cycles as metric for finding one's most efficient swimming style.</source>
         <target state="translated">Ebenso werden SWOLF-Zyklen als Summe aus Zeit (in Sekunden) und Schlägen (d.h. Anzahl der Handeingaben nur auf einer Seite) berechnet. Einige Leute bevorzugen SWOLF-Zyklen als Metrik, um den effizientesten Schwimmstil zu finden.</target>
-        <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/swolf.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4aa8eb768dabc5d491e59b9b1cca17db04cf8cfc" resname="Somewhat hard" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///4aa8eb768dabc5d491e59b9b1cca17db04cf8cfc">
         <source>Somewhat hard</source>
         <target state="translated">etwas anstrengend</target>
-        <jms:reference-file line="21">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="40af20dbdee29d6906f7d2797b8c5efa154c189b" resname="Standard deviation of R-R intervals" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///40af20dbdee29d6906f7d2797b8c5efa154c189b">
         <source>Standard deviation of R-R intervals</source>
         <target state="translated">Standardabweichung der R-R-Intervalle</target>
-        <jms:reference-file line="28">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f80f0d0bea9a153259774735c2db29021befcd7c" resname="Standard deviation of the average R-R intervals calculated over 5 minutes" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///f80f0d0bea9a153259774735c2db29021befcd7c">
         <source>Standard deviation of the average R-R intervals calculated over 5 minutes</source>
         <target state="translated">Standardabweichung der mittleren R-R-Intervalle für jeweils 5 Minuten</target>
-        <jms:reference-file line="32">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ab9befa1884e79e7f468db3414c28f6f836c84bb" resname="Suggestion">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///ab9befa1884e79e7f468db3414c28f6f836c84bb">
         <source>Suggestion</source>
-        <target>Suggestion</target>
-        <jms:reference-file line="32">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
-        <jms:reference-file line="37">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
+        <target state="translated">Suggestion</target>
       </trans-unit>
-      <trans-unit id="fe45b42e84500d4e5dfcd1090086f6bc29857959" resname="Temperature and humidity should not have any effect." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///fe45b42e84500d4e5dfcd1090086f6bc29857959">
         <source>Temperature and humidity should not have any effect.</source>
-        <target state="translated">Temperatur und Luftfeuchtigkeit sollten keinen Effekt haben.</target>
-        <jms:reference-file line="22">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
+        <target state="translated">Temperatur und Luftfeuchtigkeit sollten keine Auswirkungen haben.</target>
       </trans-unit>
-      <trans-unit id="d441ff91c712a4eb0de308c10d921f502b83c573" resname="The SWOLF score is useful when trying different combinations of stroke rate and stroke length to find the most efficient one, but it's not meaningful for comparing different swimmers." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///d441ff91c712a4eb0de308c10d921f502b83c573">
         <source>The SWOLF score is useful when trying different combinations of stroke rate and stroke length to find the most efficient one, but it's not meaningful for comparing different swimmers.</source>
         <target state="translated">Der SWOLF-Wert ist nützlich, wenn man verschiedene Kombinationen von Schlagzahl und Schlaglänge ausprobiert, um die effizienteste zu finden, aber er ist für den Vergleich verschiedener Schwimmer nicht aussagekräftig.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/swolf.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3322cf0e73a0926b5ae56f11940816444efff005" resname="The Wind Chill effect describes the rate of heat loss from the human body resulting from the combined effect of low temperature and wind. As winds increase, heat is carried away from the body at a faster rate, driving down both the skin temperature and eventually the internal body temperature." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///3322cf0e73a0926b5ae56f11940816444efff005">
         <source>The Wind Chill effect describes the rate of heat loss from the human body resulting from the combined effect of low temperature and wind. As winds increase, heat is carried away from the body at a faster rate, driving down both the skin temperature and eventually the internal body temperature.</source>
         <target state="translated">Der Wind-Chill-Effekt beschreibt den Wärmeverlust des menschlichen Körpers, der sich aus der Kombination von niedriger Temperatur und Wind ergibt. Wenn der Wind zunimmt, wird die Wärme schneller vom Körper weggetragen, wodurch sowohl die Hauttemperatur als auch die innere Körpertemperatur gesenkt wird.</target>
-        <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/windchill.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1c16e94e7ddba861f01bdd1d9ddf96b01249b3f1" resname="The body's heart rate is measured in beats per minute [bpm] and its maximal possible value is defined as maximum heart rate. Athlete's heart rates must always be considered relatively to their maximum, normally stated as [%HRmax]." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///1c16e94e7ddba861f01bdd1d9ddf96b01249b3f1">
         <source>The body's heart rate is measured in beats per minute [bpm] and its maximal possible value is defined as maximum heart rate. Athlete's heart rates must always be considered relatively to their maximum, normally stated as [%HRmax].</source>
         <target state="translated">Die Herzfrequenz des Körpers wird in Schlägen pro Minute (bpm) gemessen und der maximal mögliche Wert als maximale Herzfrequenz definiert. Die Herzfrequenz des Athleten muss immer relativ zu seinem Maximum betrachtet werden, normalerweise angegeben als[%HRmax].</target>
-        <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/maximum_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="14b47a50d469cdbff1a6b262a251e15907146d90" resname="The heat index as an index that combines air temperature and relative humidity to determine the human-perceived equivalent temperature. The resulting apparent temperature is crucial to assess possible effects of the weather for the human body. High relative humidity reduces the evaporation rate of sweat, lowering the body's self-cooling." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///14b47a50d469cdbff1a6b262a251e15907146d90">
         <source>The heat index as an index that combines air temperature and relative humidity to determine the human-perceived equivalent temperature. The resulting apparent temperature is crucial to assess possible effects of the weather for the human body. High relative humidity reduces the evaporation rate of sweat, lowering the body's self-cooling.</source>
         <target state="translated">Der Wärmeindex ist ein Index, der Lufttemperatur und relative Luftfeuchtigkeit kombiniert, um die vom Menschen wahrgenommene äquivalente Temperatur zu bestimmen. Die daraus resultierende scheinbare Temperatur ist entscheidend, um mögliche Auswirkungen des Wetters auf den menschlichen Körper abzuschätzen. Eine hohe relative Luftfeuchtigkeit reduziert die Verdunstungsrate des Schweißes und senkt die Selbstkühlung des Körpers.</target>
-        <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="602804ebdb96b652613e9c9c1bbd04f299cb2701" resname="The heat index is calculated based on temperatures in the shade. Exposure to full sunshine can increase heat index values by up to %temp%." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///602804ebdb96b652613e9c9c1bbd04f299cb2701">
         <source>The heat index is calculated based on temperatures in the shade. Exposure to full sunshine can increase heat index values by up to %temp%.</source>
         <target state="translated">Der Wärmeindex wird anhand der Temperaturen im Schatten berechnet. Bei voller Sonneneinstrahlung kann der Wärmeindex um bis zu %temp% steigen.</target>
-        <jms:reference-file line="15">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/heat_index.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="466e5eff64c7d329970c84047b6c664149ff1f7a" resname="The logarithm is used to achieve a better scaling." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///466e5eff64c7d329970c84047b6c664149ff1f7a">
         <source>The logarithm is used to achieve a better scaling.</source>
         <target state="translated">Der Logarithmus wird verwendet, um eine bessere Skalierung zu erreichen.</target>
-        <jms:reference-file line="24">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="92de637b147df5b4dc1129046c11fad1726e580e" resname="The marathon shape is an invention of Runalyze to optimize prognoses for long distances, that are based on the effective VO2max. These prognoses normally can't consider whether the athlete has the optimal fitness or endurance for a marathon. The marathon shape is the solution for this problem, as the prognoses are continually adjusted for missing fitness." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///92de637b147df5b4dc1129046c11fad1726e580e">
         <source>The marathon shape is an invention of Runalyze to optimize prognoses for long distances, that are based on the effective VO2max. These prognoses normally can't consider whether the athlete has the optimal fitness or endurance for a marathon. The marathon shape is the solution for this problem, as the prognoses are continually adjusted for missing fitness.</source>
         <target state="translated">Die Marathonform ist eine Erfindung von Runalyze zur Optimierung von Prognosen für lange Strecken, die auf dem effektiven VO2max basieren. Diese Prognosen können normalerweise nicht berücksichtigen, ob der Athlet die optimale Fitness oder Ausdauer für einen Marathon hat. Die Marathonform ist die Lösung für dieses Problem, da die Prognosen ständig an die fehlende Fitness angepasst werden.</target>
-        <jms:reference-file line="9">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/marathon_shape.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="65de081602b470b7358e6c6070282c62e8bbd4f6" resname="The resting heart rate is defined as the heart rate when a person is awake and at complete rest. Well-conditioned endurance athletes typically have lower resting heart rates (e.g. 30 - 50 bpm) than unathletic people (e.g. 50 - 90 bpm)." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///65de081602b470b7358e6c6070282c62e8bbd4f6">
         <source>The resting heart rate is defined as the heart rate when a person is awake and at complete rest. Well-conditioned endurance athletes typically have lower resting heart rates (e.g. 30 - 50 bpm) than unathletic people (e.g. 50 - 90 bpm).</source>
         <target state="translated">Die Ruheherzfrequenz ist definiert als die Herzfrequenz, wenn eine Person wach und in völliger Ruhe ist. Gut konditionierte Ausdauersportler haben typischerweise niedrigere Ruheherzfrequenzen (z.B. 30 - 50 bpm) als unsportlichere Menschen (z.B. 50 - 90 bpm).</target>
-        <jms:reference-file line="11">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/resting_heart_rate.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9c2b27555941d608931b070240429915b609604f" resname="The training effect is a measure by Firstbeat and Garmin to evaluate the training's ffort concerning the impact on the physiology, in particular future aerobic performance. Garmin devices analyze heart rate data during activity to estimate EPOC (excess post-exercise oxygen consumption) and determine the related training effect. Training effect values are useful to control one's weekly training to prevent overtraining." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///9c2b27555941d608931b070240429915b609604f">
         <source>The training effect is a measure by Firstbeat and Garmin to evaluate the training's ffort concerning the impact on the physiology, in particular future aerobic performance. Garmin devices analyze heart rate data during activity to estimate EPOC (excess post-exercise oxygen consumption) and determine the related training effect. Training effect values are useful to control one's weekly training to prevent overtraining.</source>
         <target state="translated">Der Trainingseffekt ist eine Maßeinheit von Firstbeat und Garmin, um das Wohlbefinden des Trainings hinsichtlich der Auswirkungen auf die Physiologie, insbesondere der zukünftigen aeroben Leistungsfähigkeit, zu bewerten. Garmin-Geräte analysieren die Herzfrequenzdaten während der Aktivität, um den EPOC-Wert (überschüssiger Sauerstoffverbrauch nach dem Training) abzuschätzen und den damit verbundenen Trainingseffekt zu ermitteln. Trainingseffektwerte sind nützlich, um das wöchentliche Training zu kontrollieren und Übertraining zu vermeiden.</target>
-        <jms:reference-file line="9">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="40d2f5ad02c7df91a670ce22b98457579cd1d5b7" resname="The training monotony is a method for evaluating the similarity of the daily training and is based on the variation of the daily TRIMP values over the last seven days. The lower the variation the higher the monotony. Results underneath 1.5 are considered as recommendable, results above 2.0 as critical. To recognise overtraining, one should bear training strain in mind as that value rates monotony and training load together." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///40d2f5ad02c7df91a670ce22b98457579cd1d5b7">
         <source>The training monotony is a method for evaluating the similarity of the daily training and is based on the variation of the daily TRIMP values over the last seven days. The lower the variation the higher the monotony. Results underneath 1.5 are considered as recommendable, results above 2.0 as critical. To recognise overtraining, one should bear training strain in mind as that value rates monotony and training load together.</source>
         <target state="translated">Die Trainingsmonotonie ist eine Methode zur Bewertung der Ähnlichkeit des täglichen Trainings und basiert auf der Variation der täglichen TRIMP-Werte über die letzten sieben Tage. Je geringer die Variation, desto höher die Monotonie. Ergebnisse unter 1,5 gelten als empfehlenswert, Ergebnisse über 2,0 als kritisch. Um Übertraining zu erkennen, sollte man die Trainingsbelastung im Auge behalten, da dieser Wert Monotonie und Trainingsbelastung gemeinsam bewertet.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6d50e67816f6186b17eb5c7c22b1c06db73aa47f" resname="The training strain calculates the risk of overtraining by combining training monotony and the sum of all TRIMP values for a given period. The risk of overtraining has an individual limit for every single athlete." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///6d50e67816f6186b17eb5c7c22b1c06db73aa47f">
         <source>The training strain calculates the risk of overtraining by combining training monotony and the sum of all TRIMP values for a given period. The risk of overtraining has an individual limit for every single athlete.</source>
         <target state="translated">Die Trainingsbelastung berechnet das Risiko eines Übertrainings durch die Kombination von Trainingsmonotonie und der Summe aller TRIMP-Werte für einen bestimmten Zeitraum. Das Risiko des Übertrainings hat für jeden einzelnen Athleten ein individuelles Limit.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_strain.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f5928bc8a35bbe77abca8a5deaf324cb8f41c9f8" resname="This value is said to be a strong indicator for parasympathetic activity and thus large values indicate a better recovery status." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///f5928bc8a35bbe77abca8a5deaf324cb8f41c9f8">
         <source>This value is said to be a strong indicator for parasympathetic activity and thus large values indicate a better recovery status.</source>
         <target state="translated">Dieser Wert soll ein starker Indikator für parasympathische Aktivität sein und große Werte deuten daher auf einen besseren Erholungszustand hin.</target>
-        <jms:reference-file line="19">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/hrv.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5613417135d3b5d272a11fdb4009ff84f9e8b3ed" resname="To calculate the marathon shape, the kilometers made a week aswell as every single run according to length are looked at. Other physical activities (e.g. cycling) are not going to be considered. The target is set to a calculated value according to the athlete's current best possible marathon time, based on the VO2max. The kilometers and the distance of the weekly long run are derived from typical marathon training plans. " approved="yes">
-        <source>To calculate the marathon shape, the kilometers made a week aswell as every single run according to length are looked at. Other physical activities (e.g. cycling) are not going to be considered. The target is set to a calculated value according to the athlete's current best possible marathon time, based on the VO2max. The kilometers and the distance of the weekly long run are derived from typical marathon training plans. </source>
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///5613417135d3b5d272a11fdb4009ff84f9e8b3ed">
+        <source>To calculate the marathon shape, the kilometers made a week aswell as every single run according to length are looked at. Other physical activities (e.g. cycling) are not going to be considered. The target is set to a calculated value according to the athlete's current best possible marathon time, based on the VO2max. The kilometers and the distance of the weekly long run are derived from typical marathon training plans.</source>
         <target state="translated">Zur Berechnung der Marathonform werden die Kilometer pro Woche sowie jeder einzelne Lauf nach Länge betrachtet. Andere körperliche Aktivitäten (z.B. Radfahren) werden nicht berücksichtigt. Das Ziel wird auf einen berechneten Wert entsprechend der aktuell bestmöglichen Marathonzeit des Athleten, basierend auf dem VO2max, gesetzt. Die Kilometer und die Distanz des wöchentlichen Langlaufs ergeben sich aus typischen Marathon-Trainingsplänen.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/marathon_shape.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d084b29efa62fd82185d3cf7762e45fd6b00bc9c" resname="Training Effect Levels">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///d084b29efa62fd82185d3cf7762e45fd6b00bc9c">
         <source>Training Effect Levels</source>
-        <target>Trainingseffekt Levels</target>
-        <jms:reference-file line="16">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
+        <target state="translated">Trainingseffekt Levels</target>
       </trans-unit>
-      <trans-unit id="a568f118a0c84f19958a9e773edce6afc3d707e6" resname="Training Impulse" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///a568f118a0c84f19958a9e773edce6afc3d707e6">
         <source>Training Impulse</source>
         <target state="translated">Trainingsimpuls</target>
-        <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/trimp.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="642cbfe9d58627a0376c2b13662be805f8958bb8" resname="Training Impulse, developed by Banister in 1991, is a method to quantify training load based on heart rate and duration of an exercise. The method uses heart rate reserve, which considers %restingHeartRate% as well as %maximumHeartRate%, and a gender-specific weighting factor." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///642cbfe9d58627a0376c2b13662be805f8958bb8">
         <source>Training Impulse, developed by Banister in 1991, is a method to quantify training load based on heart rate and duration of an exercise. The method uses heart rate reserve, which considers %restingHeartRate% as well as %maximumHeartRate%, and a gender-specific weighting factor.</source>
-        <target state="translated">Trainingimpulse, 1991 von Banister entwickelt, ist eine Methode zur Quantifizierung der Trainingsbelastung anhand der Herzfrequenz und der Dauer einer Übung. Die Methode verwendet eine Herzfrequenzreserve, die sowohl %restingHeartRate% als auch %maximumHeartRate% berücksichtigt, und einen geschlechtsspezifischen Gewichtungsfaktor.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/trimp.html.twig</jms:reference-file>
+        <target state="translated">Der Trainingsimpuls, 1991 von Banister entwickelt, ist eine Methode zur Quantifizierung der Trainingsbelastung anhand der Herzfrequenz und der Dauer einer Übung. Die Methode berücksichtigt dabei sowohl die %restingHeartRate% als auch die %maximumHeartRate% und einen geschlechtsspezifischen Gewichtungsfaktor.</target>
       </trans-unit>
-      <trans-unit id="d1f0a459e1963bf098b0d26aefed85503435ccf9" resname="Training Stress Balance" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///d1f0a459e1963bf098b0d26aefed85503435ccf9">
         <source>Training Stress Balance</source>
         <target state="translated">Stress Balance</target>
-        <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7bfc059ecd59974387cb6656bea731291074117f" resname="Training effect" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///7bfc059ecd59974387cb6656bea731291074117f">
         <source>Training effect</source>
         <target state="translated">Trainingseffekt</target>
-        <jms:reference-file line="28">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="4">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="01f74f9d0a49a1255dce6c4d76740f430f80626d" resname="Training strain" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///01f74f9d0a49a1255dce6c4d76740f430f80626d">
         <source>Training strain</source>
         <target state="translated">Trainingsbelastung</target>
-        <jms:reference-file line="26">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="20">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/easy_trimp.html.twig</jms:reference-file>
-        <jms:reference-file line="23">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/monotony.html.twig</jms:reference-file>
-        <jms:reference-file line="7">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_strain.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a33e5fd66a11f60f3d07301ddd769db772580c4f" resname="Training stress balance is the difference between CTL and ATL (in absolute values) and can help as indicator for hard training (negative values) and rest (positive values)." approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///a33e5fd66a11f60f3d07301ddd769db772580c4f">
         <source>Training stress balance is the difference between CTL and ATL (in absolute values) and can help as indicator for hard training (negative values) and rest (positive values).</source>
         <target state="translated">Die Trainingsbelastung ist die Differenz zwischen CTL und ATL (in absoluten Werten) und kann als Indikator für hartes Training (negative Werte) und Ruhe (positive Werte) dienen.</target>
-        <jms:reference-file line="12">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/tsb.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="50172140252ee1bd80b8b278df7a400ef39494eb" resname="Very hard" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///50172140252ee1bd80b8b278df7a400ef39494eb">
         <source>Very hard</source>
-        <target state="translated">sehr anstrengedn</target>
-        <jms:reference-file line="25">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
+        <target state="translated">sehr anstrengend</target>
       </trans-unit>
-      <trans-unit id="f3de142306aee84fc052676a185ed5a086e49efd" resname="Very light" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///f3de142306aee84fc052676a185ed5a086e49efd">
         <source>Very light</source>
         <target state="translated">sehr leicht</target>
-        <jms:reference-file line="17">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/rpe.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e802847e591646307799c05ea8d85269f1eeefe1" resname="Windchill" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///e802847e591646307799c05ea8d85269f1eeefe1">
         <source>Windchill</source>
         <target state="translated">Windkälte</target>
-        <jms:reference-file line="31">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/overview.html.twig</jms:reference-file>
-        <jms:reference-file line="6">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/windchill.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="64dfbcb78066b2fb2d43b74b6d92ad9ac0dc9d5c" resname="per week" approved="yes">
+      <trans-unit xml:space="preserve" approved="yes" id="not.available///64dfbcb78066b2fb2d43b74b6d92ad9ac0dc9d5c">
         <source>per week</source>
-        <target state="translated">pro Woche</target>
-        <jms:reference-file line="32">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
-        <jms:reference-file line="37">/../../../../../../../../../vendor/runalyze/glossary/Resources/views/topics/training_effect.html.twig</jms:reference-file>
+        <target state="translated">Wochen</target>
       </trans-unit>
     </body>
   </file>
