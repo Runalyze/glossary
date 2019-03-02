@@ -1,28 +1,41 @@
-{% extends extends%}
+{% extends "base_static.html.twig" %}
+
+{% set container_class = 'narrow' %}
 
 {% block content %}
-    <div class="glossary">
-        {% block panelHeading %}
+
+    <div class="help-center">
         <div class="panel-heading">
-            <h1>
-                <a {{ urlClass | raw }} href="{{ path('glossary-index') }}">{% trans %}Glossary{% endtrans %}</a>
-            </h1>
+            <h1><a class="window" href="{{ url('glossary-index') }}">{% trans %}Glossary{% endtrans %}</a></h1>
         </div>
+
+        <div class="panel-heading panel-inner-heading">
+                <h1>
+            {% block glossaryHeader %}
+            {% endblock %}
+                </h1>
+        </div>
+
+        {% block glossaryContent %}
         {% endblock %}
 
+        {% block glossaryFooter %}
+            <div class="panel-heading panel-inner-heading margin-top-2x help-no-answer">
+                <h2>{% trans %}Didn't find an answer to your question?{% endtrans %}</h2>
+            </div>
 
-
-        {% block panelContent %}
-        <div class="panel-content">
-            <h2>{% block headline %}{% endblock %}</h2>
-
-            {% block glossaryContent %}{% endblock %}
-        </div>
+            <div class="panel-content">
+                <ul class="blocklist blocklist-inline clearfix help-runalyze-links">
+                    <li><a target="_blank" href="https://www.facebook.com/groups/147643142510947/" title="Facebook Group Runalyze"><i class="fab fa-fw fa-facebook color-facebook"></i> <strong>{% trans %}Community{% endtrans %}</strong></a></li>
+                    <li><a target="_blank" href="https://blog.runalyze.com/" title="Runalyze Blog"><i class="far fa-fw fa-newspaper"></i> <strong>{% trans %}Blog{% endtrans %}</strong></a></li>
+                    <li><a href="{{ path('help') }}" class="window" title="Runalyze Help & Support"><i class="fa fa-fw fa-question-circle"></i> <strong>{% trans %}Help{% endtrans %}</strong></a></li>
+                    <li><a target="_blank" href="http://twitter.com/RunalyzeDE" title="Runalyze at Twitter"><i class="fab fa-fw fa-twitter color-twitter"></i> <strong>Twitter</strong></a></li>
+                    <li><a target="_blank" href="http://facebook.com/Runalyze" title="Runalyze at Facebook"><i class="fab fa-fw fa-facebook-f color-facebook"></i> <strong>Facebook</strong></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/runalyze/" title="Runalyze at Instagram"><i class="fab fa-fw fa-instagram color-instagram"></i> <strong>Instagram</strong></a></li>
+                </ul>
+            </div>
         {% endblock %}
-        <p class="info">
-            {% trans with {'%github%': '<a class="external" target="_blank" href="https://github.com/Runalyze/glossary/issues/new">Github</a>'}%}If you have further explanations, references or ideas for some definitions create an issue on %github% or write us an email.{% endtrans %}
-            <br>
-            {% trans with {'%translate%' : '<a class="external" target="_blank" href="https://translate.runalyze.com/projects/runalyze/glossary">translate.runalyze.com</a>'} %}This entry is not available in your language or you have improvement suggestions? Help us translating those definitions at %translate%.{% endtrans %}
-        </p>
+
     </div>
+
 {% endblock %}
