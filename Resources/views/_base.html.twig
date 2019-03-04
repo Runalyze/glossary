@@ -4,24 +4,27 @@
 
 {% block content %}
 
-    <div class="help-center">
+    <div class="glossary">
         <div class="panel-heading">
             <h1><a class="window" href="{{ url('glossary-index') }}">{% trans %}Glossary{% endtrans %}</a></h1>
         </div>
 
         <div class="panel-heading panel-inner-heading">
-                <h1>
-            {% block glossaryHeader %}
-            {% endblock %}
-                </h1>
+            <h1>
+                {% block glossaryHeader %}
+                {% endblock %}
+            </h1>
         </div>
 
-<div class="panel-content">
-        {% block glossaryContent %}
-        {% endblock %}
-</div>
+        <div class="panel-content">
+            <div class="glossary-entry-content">
+                {% block glossaryContent %}
+                {% endblock %}
+            </div>
+        </div>
 
         {% block glossaryFooter %}
+            {% if not app.request.xmlHttpRequest %}
             <div class="panel-heading panel-inner-heading margin-top-2x help-no-answer">
                 <h2>{% trans %}Didn't find an answer to your question?{% endtrans %}</h2>
             </div>
@@ -36,6 +39,7 @@
                     <li><a target="_blank" href="https://www.instagram.com/runalyze/" title="Runalyze at Instagram"><i class="fab fa-fw fa-instagram color-instagram"></i> <strong>Instagram</strong></a></li>
                 </ul>
             </div>
+            {% endif %}
         {% endblock %}
 
     </div>
